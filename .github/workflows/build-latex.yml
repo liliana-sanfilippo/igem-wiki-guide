@@ -16,7 +16,7 @@ jobs:
       - name: Copy PDF to docs
         run: |
           mkdir -p docs
-          cp wiki-guide/main.pdf wiki-guide.pdf
+          cp main.pdf wiki-guide.pdf
       - name: Commit PDF
         run: |
           git config user.name github-actions
