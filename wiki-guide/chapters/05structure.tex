@@ -1,0 +1,52 @@
+%! Author = lili
+%! Date = 6/30/25
+
+\index{File Structure} \index{GitLab Organization}
+\noindent To facilitate collaborative work on the wiki and minimize merge conflicts in GitLab, it's essential to establish a well-organized file structure. 
+This will help multiple team members work simultaneously without issues, especially for lengthy sites.
+
+\paragraph{Organized Components:} For pages with multiple tabs or sections, create individual files for each tab and treat them as components. 
+This modular approach enhances clarity and maintainability.
+
+\subsection*{Suggested Folder Structure} \label{subsec:folderstructure} \index{file structure}
+\begin{itemize}
+    \item \texttt{project-folder/}
+    \begin{itemize}
+        \item \texttt{code/:} Additional tools, e.g. \ Python scripts
+        \item \texttt{public/:} Files you need to be able to access with via url, e.g. \ java scripts
+        \item \texttt{src/}
+        \begin{itemize}
+            \item \texttt{app/:} Store the App and other main components.
+            \item \texttt{components/:} Reusable components like buttons, cards, and sections.
+            \item \texttt{data/:} Data sets used for automated components or other elements.
+            \item \texttt{ic/:} \nameref{sec:interfaces} and \nameref{sec:types} files.
+            Alternatively, you can use a global definition file.
+            \item \texttt{pages/:} The files used as page components.
+            \item \texttt{styles/:} CSS or SCSS files to manage styling consistently.
+            \item \texttt{utils/:} Type Script and JavaScript functions for global use such as \nameref{sec:routing} or \nameref{sec:bibtexparser}.
+            \item \texttt{main.tsx}
+            \item \texttt{navigation.ts}
+            \item \texttt{pages.ts}
+            \item \texttt{index files}
+        \end{itemize}
+        \item \texttt{README}
+        \item \texttt{config files}
+        \item \texttt{LICENSE}
+        \item \texttt{index.html}
+        \item \texttt{gitignore}
+        \item \texttt{pipeline file}
+    \end{itemize}
+\end{itemize}
+This structure can be extended to, for example, include files for headers, sidebars and references per page.
+
+\section{Naming Conventions} \label{sec:naming-conventions}  \index{file naming conventions}
+Implement clear and consistent naming conventions for files and folders to enhance navigation and understanding within the project.
+
+%\subsection*{Suggested naming conventions}
+\begin{itemize}
+    \item \textbf{PascalCase} for props, states and components: \textit{UserProfile, Navbar, ItemList.}
+    \item \textbf{camelCase} for variables: \textit{wordCount, primaryColor}
+    \item \textbf{Verb-Noun with context} for functions: \textit{UseNavbar, CreateSidebar}
+    \item \textbf{Lowercase with Hyphens} for classes and ids: \textit{experiment-header, first-button}
+    \item \textbf{Context} for all naming: \textit{Timeline, InfoBoxes, createSidebar}
+\end{itemize}
