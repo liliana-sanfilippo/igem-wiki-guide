@@ -1,0 +1,281 @@
+%! Author = lili
+%! Date = 6/30/25
+
+
+\section{Standard URL Pages} \index{Standard URL Pages}
+
+iGEM provides standard URL pages that partly correspond to deliverables required for medal eligibility.
+These pages should be carefully curated to meet specific criteria, and judges will often look at them first.
+Here are the essential pages you must include:
+
+\subsection*{Bronze Medal Criteria} \index{Medal Criteria}
+\begin{itemize}
+\item \textbf{Attributions:} This page outlines the contributions of each team member and any external help you received.
+\begin{itemize}
+    \item \textit{https://year.igem.wiki/example/attributions}
+\end{itemize}
+\item \textbf{Project Description:} A detailed description of your project, summarizing the scientific question you are addressing.
+\begin{itemize}
+    \item  \textit{https://year.igem.wiki/example/description}
+\end{itemize}
+\item \textbf{Contribution:} Document how your team contributed to the iGEM community, whether through improved protocols, new parts, or educational resources.
+\begin{itemize}
+    \item  \textit{https://year.igem.wiki/example/contribution}
+\end{itemize}
+\end{itemize}
+
+\subsection*{Silver Medal Criteria} \index{Medal Criteria}
+\begin{itemize}
+\item \textbf{Engineering Success:} Outline how your project follows the engineering design cycle, including design, build, test, and learn phases.
+\begin{itemize}
+    \item  \textit{https://year.igem.wiki/example/engineering}
+\end{itemize}
+\item \textbf{Human Practices:} Demonstrate how your project interacts with and is shaped by the broader societal, ethical, and environmental context.
+\begin{itemize}
+    \item  \textit{https://year.igem.wiki/example/human-practices}
+\end{itemize}
+\end{itemize}
+
+\subsection*{Gold Medal Criteria} \index{Medal Criteria}
+For Gold, your team needs to document work for Special Prizes.
+The structure of these pages may vary depending on the prizes you select. \newline
+These standard URL pages are automatically linked to your Judging Form, so it’s essential that all relevant achievements are documented here to ensure proper judging and recognition.
+
+\section{Additional Pages and Considerations}\index{Pages}
+
+While the Standard URL Pages cover core requirements, your team may need to include additional pages to give a full picture of your project.
+Consider adding separate pages for the following:
+
+\begin{itemize}
+\item \textbf{Team Page:} Introduce the team members, their roles, and their contributions.
+This humanizes your project and gives credit to everyone involved.
+
+\item \textbf{Lab Books:} Document your experiments and lab work.
+Each experiment or set of related experiments can have its own section for better clarity.
+
+\item \textbf{Meeting Documentation:} Keep track of all important team meetings, especially those related to project decision-making, collaborations, and interactions with stakeholders.
+
+\item \textbf{Sponsors and Partners:} List all your project sponsors, partners, and external supporters.
+This can be crucial for acknowledging contributions and maintaining transparency.
+
+\item \textbf{Materials and Methods:} Provide detailed information about the techniques, equipment, and protocols used in your project.
+Judges and future teams will find this information useful.
+
+\item \textbf{Results:} Summarize your findings and data analysis.
+Depending on your results' complexity, this may warrant its own section or multiple pages.
+
+\item \textbf{Parts:} List the biological parts you designed or used in your project, following iGEM’s standards for documenting parts.
+
+\item \textbf{Sustainability:} Include this page to highlight how your project contributes to sustainable development goals or impacts the environment positively.
+\end{itemize}
+
+\section{Structuring for Easy Navigation}
+
+It’s important to ensure that every aspect of your project can be reached through the standard URL pages.
+For example, your \textit{Human Practices} page can link to more detailed reports or outcomes in related sections such as \textit{Sustainability} or \textit{Ethics}, but make sure the essential content is summarized within the \textit{Human Practices} page itself. \newline
+To ensure easy navigation and avoid clutter, consider using clear menus and submenus that guide users through different sections.
+Items such as \textit{Proof of Concept} or \textit{Design} can be standalone pages but should also be cross-referenced in key standard pages such as \textit{Engineering Success} to ensure judges can find relevant information quickly.
+
+
+\section{Enhancing the Navigation Bar} \index{Navigation Bar}
+The navigation bar is one of the most crucial elements of your wiki, guiding users through the content and making sure they can quickly find what they need.
+Here are some key considerations to ensure your navigation bar is both functional and user-friendly:
+\begin{itemize}
+\item \textbf{Linking Sections, Not Just Pages:}
+It’s important to know that your navigation bar doesn’t have to link only to full pages.
+You can also link directly to specific sections within a page.
+This is especially useful if you have long pages with different subtopics.
+For example, in a dropdown menu for ``Project'', you could link to the ``Design'' section of the main project page without needing to create a separate page for it.
+This saves time and avoids unnecessary fragmentation of content while ensuring that all important sections are easily accessible.
+\begin{mybox}
+    \begin{lstlisting}[language=TypeScript]
+{
+name: "Project Description",
+title: "Project Description",
+path: "/description?scrollTo=Abstract"
+}
+    \end{lstlisting}
+\end{mybox}
+See full code example in the appendix on page \ \pageref{lis:pagests}.
+\item \textbf{Creating a ‘Highlights’ Dropdown:}
+A smart way to organize your navigation bar is by adding a Highlights dropdown, which can give users a quick tour of the key content.
+This is ideal for judges or visitors who want to get an overview without navigating through each section individually.
+Include the most critical pages like:
+\begin{itemize}
+    \item Project Description
+    \item Human Practices
+    \item Engineering Success
+    \item Contribution
+\end{itemize}
+This offers a streamlined navigation experience, allowing users to quickly jump to the core of your project.
+
+\item \textbf{Page and Folder Highlighting:}
+For enhanced user experience, it’s a good idea to highlight the current page or folder that the user is on within the navigation bar.
+This visual cue helps users understand where they are within the site structure.
+Many modern websites use a simple color change or underline to show which menu item is active.
+This is especially useful when users are navigating through multiple pages or sections, preventing them from getting lost in a large wiki structure.
+
+\item \textbf{Dropdown Menus for Section and Page Links:}
+Dropdowns can help organize both pages and sections under a single heading.
+For example, if you have a ``Project'' dropdown, it can contain links to separate pages like \textit{Project Description}, while also linking directly to sections of a single page, like \textit{Design} or \textit{Results}.
+This ensures that teams don’t feel pressured to create separate pages just to mention something on the navigation bar—allowing a better balance between organization and simplicity.
+
+\end{itemize}
+Ensure that your navigation bar includes direct links to all key sections such as \textit{Project Description}, \textit{Engineering Success}, and \textit{Human Practices}. \\ \newline
+Also consider:
+\begin{itemize}
+\item \textbf{Clear Labeling:}
+Each item in the navigation bar should have a clear and descriptive label that indicates the content of the page or section it links to.
+Avoid using jargon or abbreviations that might confuse users.
+For example, instead of using ``Proj. Des.'', use ``Project Description.''
+
+\item \textbf{Consistent Structure:}
+Maintain a consistent structure throughout the navigation bar.
+For example, if you use dropdowns for one category, ensure that all categories are similarly organized.
+This consistency helps users understand how to navigate your site intuitively.
+
+\item \textbf{Mobile Responsiveness:}
+Ensure that the navigation bar is responsive and functions well on mobile devices.
+This may involve using a hamburger menu for smaller screens, where users can click to expand the menu.
+Test the navigation on various devices to confirm usability.
+
+\item \textbf{Search Functionality:}
+If your wiki has a lot of content, consider incorporating a search bar in the navigation area.
+This allows users to quickly find specific information without having to browse through multiple pages.
+
+\item \textbf{Breadcrumb Navigation:}
+Implement breadcrumb navigation to provide users with context about their location within the site.
+This shows the path they took to arrive at a specific page, allowing them to backtrack easily.
+
+\item \textbf{Accessibility Features:}
+Ensure that the navigation bar is accessible to all users, including those with disabilities.
+Use appropriate color contrasts, keyboard navigation support, and ARIA (Accessible Rich Internet Applications) roles for assistive technologies.
+
+\item \textbf{Sticky Navigation:}
+Consider making the navigation bar sticky (fixed at the top of the page as the user scrolls).
+This keeps essential navigation options visible, improving user experience, especially on long pages.
+
+\item \textbf{Dropdown Indicators:}
+Use visual indicators (like arrows or plus signs) to show which menu items contain dropdown options.
+This helps users understand that more content is available under certain categories.
+
+\item \textbf{Highlighting Active Links:}
+Highlight active links (the current page) in a way that distinguishes them from other links.
+This could involve changing the text color or background color to indicate which page is currently being viewed.
+
+\item \textbf{Limited Number of Items:}
+Try to limit the number of top-level items in the navigation bar to avoid clutter.
+A clean, concise navigation menu is easier for users to navigate than one that is overloaded with links.
+If you have many categories, consider grouping them logically or using dropdown menus.
+
+\item \textbf{User Testing:}
+After designing the navigation bar, conduct user testing with team members or potential users to gather feedback on usability.
+This can help identify areas for improvement before finalizing the design.
+
+\item \textbf{Linking to External Resources:}
+If your project references external resources, ensure that links to these sites open in a new tab.
+This prevents users from losing their place on your wiki while exploring additional content.
+\end{itemize}
+By implementing these features in your navigation bar, you'll create a smoother and more intuitive browsing experience that can help judges and other users easily navigate your content and quickly access essential information.
+
+
+
+\section{Footer}
+Be sure to always include the obligatory parts in the footer such as the licensing information and link to you teams GitLab Repository.
+\begin{itemize}
+\item \textbf{Licensing Information:} \index{Footer}
+It is essential to mention the licensing terms for your content in the footer.
+\item iGEM requires that all content be available under the Creative Commons Attribution 4.0 license or any later version, and this should be clearly stated.
+
+\item \textbf{GitLab Repository Link:}
+Include a visible link to your team’s GitLab repository in the footer, as mandated by iGEM. This allows judges and future teams to easily access the source code used to generate the wiki.
+\end{itemize}
+Apart from the above parts, the footer design is quite flexible.
+Possible additions include:
+\begin{itemize}
+\item \textbf{Sponsor Links:} \index{Sponsors}
+Many teams choose to include links to their sponsors in the footer, often displayed in a slider or as static images.
+This not only acknowledges support but also provides visibility for the sponsors.
+
+\item \textbf{Contact Information:}
+Some teams may include an Impressum (legal disclosure) and contact information in the footer.
+This typically consists of email addresses or physical addresses.
+\begin{itemize}
+    \item \textbf{Email Address Security:}
+    If you choose to display email addresses, be mindful of security concerns.
+    Simply listing an email address can expose it to spam bots.
+    To mitigate this, consider using a contact form or disguise the email (e.g., using ``teamname [at] domain [dot] com'').
+\end{itemize}
+
+
+
+\item \textbf{Navigation and Additional Links:}
+Consider including quick links to important pages or sections within the wiki in the footer, enhancing user navigation.
+
+\item \textbf{Social Media Links:}
+If applicable, teams may also choose to link to their social media profiles to engage visitors further and provide updates on their project.
+
+%    \item \textbf{Consistent Design:}  Ensure that the footer design aligns with the overall branding and color scheme of the wiki, maintaining a professional appearance.
+\end{itemize}
+By thoughtfully incorporating these elements into the footer, you can create a functional and informative section that enhances user experience while fulfilling the necessary requirements set forth by iGEM\@.
+
+\section{Header} \index{Header}
+Page headers are the first interaction point for users on your iGEM wiki.
+They should clearly display the page name and set the tone for the content.
+If you are aiming for best wiki, consider that engaging visuals, such as images or videos, can enhance the user experience while maintaining consistency with your team’s branding and thoughtful headers create an inviting atmosphere that encourages exploration.
+
+
+\begin{itemize}
+\item \textbf{Clear Page Identification:}
+Every page header should clearly display the page name.
+This helps users quickly identify the content they are viewing and enhances navigability.
+
+\item \textbf{Visual Style:}
+Headers can vary in style, ranging from simple text to more elaborate designs.
+Some common styles include:
+\begin{itemize}
+    \item \textbf{Flashy Headers:} Utilizing bold graphics, vibrant colors, or animations to grab attention.
+    \item \textbf{Photographic Headers:} Incorporating relevant images that reflect the page content, creating an engaging visual experience.
+    \item \textbf{Video Headers:} Using short video clips or animations as headers can add dynamic content and enhance user engagement.
+\end{itemize}
+
+\item \textbf{Call to Action:}
+If appropriate, headers can include calls to action (CTAs) to encourage users to engage further with the content, such as ``Learn More'' or ``Get Involved.''
+
+\item \textbf{Alignment with Content:}
+The style and imagery used in the header should align with the content of the page, providing context and setting the tone for what follows.
+\end{itemize}
+By thoughtfully designing page headers with these considerations in mind, you can create an inviting and informative entry point for users that enhances their overall experience on your iGEM wiki.
+
+\section{Additional Elements}
+Integrating extra elements into your iGEM wiki can significantly enhance navigation and user engagement.
+These features improve the overall experience by making content more accessible and encouraging exploration, creating a more inviting and informative environment for visitors.
+\begin{itemize}
+\item \textbf{Sidebar Navigation:}
+A sidebar can significantly improve navigation, especially for long pages.
+It should include only H1 and H2 headings, allowing users to quickly jump to different sections.
+Incorporating a highlight feature can indicate the current section the user is viewing.
+
+
+\item \textbf{"Back to Top" Button:}
+This button can be placed at the end of the page or within the sidebar, providing an easy way for users to return to the top without scrolling manually. % TODO add pictures of different buttons
+
+\item \textbf{Cards:}
+Consider adding cards at specific positions, such as the end of each page, to engage users and encourage them to explore related content.
+These can highlight important links or additional resources.
+
+\item \textbf{Scrolling Progress Bar:}
+A visual scrolling progress bar can indicate how far the user has scrolled down the page, giving them a sense of navigation and encouraging continued reading.
+
+\item \textbf{Search Functionality:}
+Incorporating a search bar allows users to quickly find specific content or sections within the wiki, enhancing usability.
+
+
+\item \textbf{Suggested Reading:}
+Including a section for related links or suggested reading at the end of pages can guide users to additional relevant content, e.g. \ guiding the reader from design to engineering.
+\end{itemize}
+
+\section*{Final Thoughts}
+When structuring your iGEM wiki, prioritize user experience, especially from the perspective of judges and future teams.
+Keep navigation simple and intuitive, ensuring that all critical deliverables are well-documented and easy to locate.
+By maintaining clarity and organization across your pages, your team will be well-positioned for success in the competition.
