@@ -1,0 +1,91 @@
+
+
+\usepackage{fontsetup}
+\usepackage{pdfpages}
+\usepackage{afterpage}
+\usepackage{empheq}
+\usepackage{setspace}
+\usepackage{gensymb}
+
+% Basics ---------------------------------------------------------------
+%\RequirePackage[utf8]{inputenc}
+\RequirePackage[english]{babel}
+
+
+% Text --------------------------------------------------------------
+%\RequirePackage{textcomp}
+\RequirePackage{microtype}
+\RequirePackage{enumitem}
+\RequirePackage{fancyhdr}
+\RequirePackage{imakeidx}
+\RequirePackage[intoc, english]{nomencl}
+\RequirePackage{xcolor}
+\RequirePackage[printsolution=true]{exercises}
+\RequirePackage{authblk}
+\RequirePackage{ragged2e}
+\RequirePackage{multicol}
+\RequirePackage{epigraph}
+
+
+% Links  ---------------------------------------------------------------------
+\RequirePackage[hidelinks]{hyperref}
+\RequirePackage{qrcode}
+
+% Images -----------------------------------------------------------------------
+\RequirePackage{wrapfig}
+\RequirePackage{graphicx}
+\RequirePackage{pgf}
+\RequirePackage{copyrightbox}
+\RequirePackage{subfig}
+
+% Math  -------------------------------------------------------------------
+\RequirePackage{amsmath}
+\RequirePackage{amsfonts}
+%\RequirePackage{amssymb}
+\RequirePackage{amsbsy}
+\RequirePackage{amstext}
+\RequirePackage{amsopn}
+\RequirePackage{pgfplots}
+\RequirePackage{pst-poly}
+\RequirePackage{pst-eucl}
+
+% Chemistry ----------------------------------------------------------------------
+\RequirePackage{chemfig}
+\RequirePackage[version=4]{mhchem}
+\RequirePackage{chemformula}
+\RequirePackage{chemgreek}
+\RequirePackage{chemmacros}
+\RequirePackage{pst-labo}
+
+
+% Biology ---------------------------------------------------------------------
+\RequirePackage{genealogytree}
+\RequirePackage{dnaseq}
+\RequirePackage{dichokey}
+\RequirePackage{biocon}
+
+
+% Language -----------------------------------------------------------
+%\RequirePackage{tipa}
+\RequirePackage{forest}
+\RequirePackage{dialog}
+%\RequirePackage{verse}
+
+
+
+% Layout  -------------------------------------------------------------
+
+\RequirePackage	[inner = 3cm, outer=2cm]{geometry}
+\RequirePackage {titlesec}
+\RequirePackage[datesep=/,style=ddmmyyyy]{datetime2}
+
+% Other ------------------------------------------------------
+\RequirePackage{blindtext}
+\RequirePackage{expl3}
+\RequirePackage{etoolbox}
+\RequirePackage{xpatch}
+
+% Individual ---------------------------------------------------------
+\import{./}{commands.sty}
+\import{./}{definitions.sty}
+\import{./}{colors.sty}

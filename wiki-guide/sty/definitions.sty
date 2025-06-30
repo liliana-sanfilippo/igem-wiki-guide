@@ -1,0 +1,153 @@
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{definitions}[2025/06/30 Version 1.0]
+
+
+\newcommand{\tam}{0.6\textwidth}
+\newcommand{\indentacaopar}{2em}
+\newcommand{\espacopar}{\baselineskip}
+\newcommand{\margem}{3cm}
+\newcommand{\colunaSeparacao}{2em}
+\newcommand{\linhaColuna}{0.4pt}
+
+
+\newenvironment{capitulo}[1]%
+	{%
+		\setcounter{section}{0}
+		\setcounter{equation}{0}
+		%\let\oldtam\tam
+		%\renewcommand{\tam}{0.9\columnwidth}
+		%\setlength{\columnseprule}{\linhaColuna}
+		\chapter{#1}
+		%\begin{multicols}{2}[\chapter{#1}]
+	}%
+	{%
+		%\end{multicols}
+
+		\let\tam\oldtam
+		\setlength{\columnseprule}{0pt}
+	}%
+
+\titleformat{\part}[display]
+	{\filleft\fontsize{80}{40}\selectfont\scshape}
+	{\fontsize{50}{50}\selectfont}
+	{10pt}
+	{\thispagestyle{epigraph}}
+
+\setlength\epigraphwidth{.6\textwidth}
+
+\makeatletter
+	\xpatchcmd\epigraphhead
+	{\let\@evenfoot}
+	{\let\@oddfoot\@empty\let\@evenfoot}
+	{}{}
+\makeatother
+
+
+
+\newenvironment{parte}[3]
+{%
+	\epigraphhead[450]{#1\par\hspace*{\fill}\textsc{---#2}}
+	\part{#3}
+}%
+{%
+	\clearpage
+}%
+
+\titleformat{\chapter} % command
+	[display] % shape
+	{\bfseries\huge\itshape} % format
+	{Chapter \ \thechapter} % label
+	{0ex} % sep
+	{
+		\rule{\textwidth}{1pt}
+		\vspace{1ex}
+		\centering
+	} % before-code
+	[
+	\vspace{-4ex}%
+	\rule{\textwidth}{0.3pt}
+	] % after-code
+
+
+
+\newcommand{\nomunit}[1]{\renewcommand{\nomentryend}{\hspace*{\fill}#1}}
+\renewcommand{\nomname}{Nomenclaturas}
+
+
+\newcommand{\monthyear}{\ifcase\month%
+							\or January%
+							\or February%
+							\or March%
+							\or April%
+							\or May%
+							\or June%
+							\or July%
+							\or August%
+							\or September%
+							\or October%
+							\or November%
+							\or December%
+							\fi%
+						\space\number\year}
+
+
+
+\newcommand{\figura}[4][\tam]{
+	\noindent
+	\begin{minipage}{\linewidth}
+		\centering
+		\includegraphics[width=#1, keepaspectratio]{#2}
+		\captionsetup{type=figure}
+		\captionof{figure}{#3}
+		\label{#4}
+	\end{minipage}
+
+}
+
+% --
+
+\newcommand{\autor}[3]{
+	\noindent
+	\begin{minipage}{\linewidth}
+		\begin{flushleft}
+			\textbf{#1}\\
+			{\footnotesize #2}\\
+			\textit{{\footnotesize #3}}
+		\end{flushleft}
+	\end{minipage}
+}
+
+
+
+\newenvironment{figuraEnv}%
+	{%
+		\noindent   					% Very important in case that \parindent is not 0pt
+		\begin{minipage}{\linewidth}
+		\centering
+	}%
+	{%
+		\end{minipage}
+	}%
+
+
+\newcommand{\capitulos}[2]{
+	\ifnum #2=0
+
+		\relax						% Does nothing
+
+	\else	% Case > 1 chapters
+		\foreach \n in {1,...,#2}{%
+			\import{#1/Conteudo/}{chap\n.tex}
+		}
+		\setcounter{chapter}{0}
+	  \fi
+}
+
+
+\newcommand{\cvevent}[6]{{#1} & \textbf{#2}\newline\textsc{#3} $\cdot$ {#4 }\newline{\color{black!70}\footnotesize #5} \newline {\scriptsize \url{#6} \vspace{1.5em}}}
+
+
+
+% image directory
+\endinput
