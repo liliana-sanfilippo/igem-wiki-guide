@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - 'wiki-guide/**.tex'
-
+  workflow_dispatch:
 jobs:
   latex:
     runs-on: ubuntu-latest
