@@ -5,7 +5,11 @@
 \usepackage{sty/commands}
 
 \begin{document}
-\pagecolor{pgcolor}
+    \makeatletter
+    \show\pgcolor
+    \makeatother
+
+    \pagecolor{pgcolor}
 \frontmatter
 
 \tableofcontents
