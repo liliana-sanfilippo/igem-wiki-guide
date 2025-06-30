@@ -17,7 +17,7 @@ jobs:
       - uses: xu-cheng/latex-action@v2
         with:
           root_file: wiki-guide/main.tex
-          latex_engine: xelatex
+          latexmk_use_xelatex: true
       - name: Copy PDF to docs
         run: |
           mkdir -p docs
