@@ -15,7 +15,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install Inkscape
-        run: sudo apt-get update && sudo apt-get install -y inkscape
+        run: |
+          wget https://media.inkscape.org/dl/resources/file/inkscape-1.3.2_2023-11-25_amd64.AppImage -O inkscape.AppImage
+          chmod +x inkscape.AppImage
+          sudo mv inkscape.AppImage /usr/local/bin/inkscape
 
       - uses: xu-cheng/latex-action@v2
         with:
