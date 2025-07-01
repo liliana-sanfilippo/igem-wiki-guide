@@ -16,7 +16,7 @@ function App() {
           <div id="nono" className="noshow">
             This combination returns no instances.
           </div>
-         <div className="col-12 col-sm-3">
+         <div className="row">
              <Gui liste={gallerydata}></Gui>
          </div>
         </div>

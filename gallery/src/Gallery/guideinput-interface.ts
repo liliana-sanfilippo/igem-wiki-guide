@@ -6,4 +6,5 @@ export interface GuideFace {
     url: string;
     type?: string; /* Website, Book, Article, Thesis, Chapter */
     teampage?: string;
+    width?: number;
 }

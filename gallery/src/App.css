@@ -5,8 +5,9 @@
 .filterable {
   display: none;
   margin: auto;
+  width: fit-content;
   img {
-    max-width: 40vh;
+    max-height:  18rem;
   }
 }
 
