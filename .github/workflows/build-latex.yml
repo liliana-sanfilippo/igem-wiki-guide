@@ -16,9 +16,10 @@ jobs:
 
       - name: Install Inkscape
         run: |
-          wget https://media.inkscape.org/dl/resources/file/inkscape-1.3.2_2023-11-25_amd64.AppImage -O inkscape.AppImage
+          wget https://gitlab.com/inkscape/inkscape/-/jobs/artifacts/1.3.2/raw/inkscape-x86_64.AppImage?job=appimage-release -O inkscape.AppImage
           chmod +x inkscape.AppImage
           sudo mv inkscape.AppImage /usr/local/bin/inkscape
+      
 
       - uses: xu-cheng/latex-action@v2
         with:
