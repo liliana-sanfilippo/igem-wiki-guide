@@ -4,13 +4,69 @@ import {GuideFace} from "./guideinput-interface";
  {
         title: "",
         tags: ["hp"],
-        author: "Leiden",
-        year: "2024",
+        author: "Wageningen uR",
+        year: "2022",
         url: "",
         teampage: ""
     }
 * */
 export const gallerydata: GuideFace[] = [
+    {
+        title: "",
+        tags: ["hp"],
+        author: "Wageningen uR",
+        year: "2022",
+        url: "",
+        teampage: ""
+    },
+    {
+        title: "Cancer Nissile Interaction",
+        tags: ["lab", "microbe", "cancer", "cells"],
+        author: "Wageningen uR",
+        year: "2022",
+        url: "https://static.igem.wiki/teams/4244/wiki/results/interaction/cancer-nissle-interaction.svg",
+        teampage: "https://2022.igem.wiki/wageningen-ur/results"
+    },
+    {
+        title: "Engineering Cycle",
+        tags: ["engineering", "framework"],
+        author: "Wageningen UR",
+        year: "2022",
+        url: "https://static.igem.wiki/teams/4244/wiki/engineering/dbtl1.svg",
+        teampage: "https://2022.igem.wiki/wageningen-ur/engineering"
+    },
+    {
+        title: "Safety",
+        tags: ["safety", "hazard"],
+        author: "Wageningen UR",
+        year: "2022",
+        url: "https://static.igem.wiki/teams/4244/wiki/safety/1.svg",
+        teampage: "https://2022.igem.wiki/wageningen-ur/safety"
+    },
+    {
+        title: "Safety glasses",
+        tags: ["safety", "icon", "lab"],
+        author: "Wageningen UR",
+        year: "2022",
+        url: "https://static.igem.wiki/teams/4244/wiki/safety/4.svg",
+        teampage: "https://2022.igem.wiki/wageningen-ur/safety"
+    },
+    {
+        title: "Ethics",
+        tags: ["safety", "ethics"],
+        author: "Wageningen UR",
+        year: "2022",
+        url: "https://static.igem.wiki/teams/4244/wiki/safety/3.svg",
+        teampage: "https://2022.igem.wiki/wageningen-ur/safety"
+    },
+    {
+        title: "Protection",
+        tags: ["safety", "bacteria", "icon"],
+        author: "Wageningen UR",
+        year: "2022",
+        url: "https://static.igem.wiki/teams/4244/wiki/safety/2.svg",
+        teampage: "https://2022.igem.wiki/wageningen-ur/safety"
+    },
     {
         title: "Integrated Human Practices Symbol",
         tags: ["hp"],
@@ -312,20 +368,110 @@ export const gallerydata: GuideFace[] = [
         teampage: "https://2024.igem.wiki/freiburg/description/"
     },
     {
-        title: "",
-        tags: ["hp"],
+        title: "AMP Mechanisms",
+        tags: ["lab"],
         author: "Freiburg",
         year: "2024",
-        url: "",
+        url: "https://static.igem.wiki/teams/5057/amp-mechanisms.svg",
         teampage: "https://2024.igem.wiki/freiburg/description/"
     },
     {
-        title: "",
-        tags: ["hp"],
+        title: "AB Resistance Mechanisms",
+        tags: ["cells", "channels"],
         author: "Freiburg",
         year: "2024",
-        url: "",
+        url: "https://static.igem.wiki/teams/5057/ab-resistance-mechanisms.svg",
         teampage: "https://2024.igem.wiki/freiburg/description/"
+    },
+    {
+        title: "Manufacturng",
+        tags: ["icons"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/hpmap/hp-manufacturing-1.svg",
+        teampage: "https://2024.igem.wiki/freiburg/human-practices/"
+    },
+    {
+        title: "Clinical Trials",
+        tags: ["icons"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/hpmap/hp-clinical-trials-1.svg",
+        teampage: "https://2024.igem.wiki/freiburg/human-practices/"
+    },
+    {
+        title: "Prevention",
+        tags: ["icons"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/hpmap/prevention-1.svg",
+        teampage: "https://2024.igem.wiki/freiburg/human-practices/"
+    },
+    {
+        title: "Responsibility",
+        tags: ["icons", "hp"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/hpmap/responsibility-1.svg",
+        teampage: "https://2024.igem.wiki/freiburg/human-practices/"
+    },
+    {
+        title: "Filling the Gap",
+        tags: ["icons", "hp"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/hpmap/filling-gap-1.svg",
+        teampage: "https://2024.igem.wiki/freiburg/human-practices/"
+    },
+    {
+        title: "Ethics",
+        tags: ["icons", "ethics"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/hpmap/ethics-1.svg",
+        teampage: "https://2024.igem.wiki/freiburg/human-practices/"
+    },
+    {
+        title: "Awards Presentation",
+        tags: ["icons", "awards"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/awards.svg",
+        teampage: "https://2024.igem.wiki/freiburg/achievements/"
+    },
+    {
+        title: "Best Hardware",
+        tags: ["icons", "awards"],
+        author: "Aachen",
+        year: "2022",
+        url: "https://static.igem.wiki/teams/4138/wiki/img/best-hardware.svg",
+        teampage: "https://2022.igem.wiki/aachen/"
+    },
+    {
+        title: "Gold Medal",
+        tags: ["icons", "awards"],
+        author: "Aachen",
+        year: "2022",
+        url: "https://static.igem.wiki/teams/4138/wiki/img/goldmedal.svg",
+        teampage: "https://2022.igem.wiki/aachen/"
+    },
+    {
+        title: "Human Practices Cycle",
+        tags: ["hp", "framework"],
+        author: "Wageningen UR",
+        year: "2022",
+        url: "https://static.igem.wiki/teams/4244/wiki/human-practices/introduction-flowchart.svg",
+        teampage: "https://2022.igem.wiki/wageningen-ur/human-practices"
+    },
+    {
+        title: "Colourectal",
+        tags: ["bacteria", "lab"],
+        author: "Wageningen UR",
+        year: "2022",
+        url: "https://static.igem.wiki/teams/4244/wiki/project-description/bacteriaoverview.svg",
+        teampage: "https://2022.igem.wiki/wageningen-ur/description/"
     }
+
+
 
 ]

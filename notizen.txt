@@ -1,6 +1,6 @@
 Clickable MindMap:
 https://2023.igem.wiki/sdu-denmark/experiments
-
+https://2024.igem.wiki/freiburg/human-practices/
 
 3D model:
 https://2023.igem.wiki/sdu-denmark/model
@@ -18,13 +18,16 @@ https://2024.igem.wiki/freiburg/
 
 Engineering:
 https://2024.igem.wiki/dtu-denmark/engineering
+https://2024.igem.wiki/freiburg/engineering/
 
 Illustration style:
 https://2024.igem.wiki/epfl/
 https://2024.igem.wiki/freiburg/
+https://2023.igem.wiki/insaenslyon1/human-practices
 
 Animation:
 https://2024.igem.wiki/epfl/description
+https://2024.igem.wiki/duesseldorf/
 
 Timeline:
 https://2024.igem.wiki/Leiden/human-practices
@@ -32,10 +35,42 @@ https://2024.igem.wiki/Leiden/human-practices
 Navbar:
 https://2024.igem.wiki/marburg/description#
 
-
 Progress Bar:
 https://2024.igem.wiki/Leiden/human-practices
 
-Logo use:
+Code /Software:
+https://2024.igem.wiki/freiburg/contribution/
+
+Logo use / Mascot use:
 https://2024.igem.wiki/freiburg/description/
 https://2023.igem.wiki/nmu-china/description (logo)
+https://2024.igem.wiki/freiburg/results/
+https://2024.igem.wiki/freiburg/achievements/
+https://2022.igem.wiki/aachen/
+
+
+Hintergrund:
+https://2022.igem.wiki/aachen/engineering/
+
+HP Darstellung:
+https://2022.igem.wiki/wageningen-ur/human-practices#government
+
+Desc Aufbau:
+https://2022.igem.wiki/wageningen-ur/description
+
+
+
+SVG Teile noch:
+https://2022.igem.wiki/wageningen-ur/ (Main page)
+https://2023.igem.wiki/insaenslyon1/human-practices (alle Seiten)
+https://2024.igem.wiki/heidelberg/results (alle Seiten)
+https://2024.igem.wiki/utokyo/education (alle, bes education)
+https://2017.igem.org/Team:EPFL/Demonstrate (alle)
+https://2020.igem.org/Team:TU_Darmstadt/Project/Biofilm (alle)
+https://2024.igem.wiki/leiden/description (diese)
+https://2024.igem.wiki/gu-frankfurt/ (alle)
+https://2024.igem.wiki/munich/description/ (alle)
+https://2020.igem.org/Team:Moscow (alle)
+https://2019.igem.org/Team:FAU_Erlangen/Description (alle)
+https://2019.igem.org/Team:UCL (alle)
+https://2023.igem.wiki/mcgill/description/ (alle)
