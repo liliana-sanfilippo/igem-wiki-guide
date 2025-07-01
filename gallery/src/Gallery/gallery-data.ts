@@ -4,8 +4,8 @@ import {GuideFace} from "./guideinput-interface";
  {
         title: "",
         tags: ["hp"],
-        author: "SDU Denmark",
-        year: "2023",
+        author: "Leiden",
+        year: "2024",
         url: "",
         teampage: ""
     }
@@ -150,5 +150,182 @@ export const gallerydata: GuideFace[] = [
         url: "https://static.igem.wiki/teams/4868/wiki/illustrations-images/human-practices/forest.svg",
         teampage: "https://2023.igem.wiki/sdu-denmark/sustainable"
     },
+    {
+        title: "Engineerig Cycle",
+        tags: ["engineering", "framework"],
+        author: "Leiden",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5112/engineering/engineering-cycle-v3.svg",
+        teampage: "https://2024.igem.wiki/Leiden/engineering"
+    },
+    {
+        title: "Steric Hindrance",
+        tags: ["lab", "cells"],
+        author: "Leiden",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5112/engineering/steric-hindrance-v7.svg",
+        teampage: "https://2024.igem.wiki/Leiden/engineering"
+    },
+    {
+        title: "ALPACA Scaffold",
+        tags: ["engineering", "lab"],
+        author: "Leiden",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5112/engineering/alpaca-scaffold.svg",
+        teampage: "https://2024.igem.wiki/Leiden/engineering"
+    },
+    {
+        title: "ALPACA pipeline",
+        tags: ["lab", "bacteria", "nanobody", "cells"],
+        author: "Leiden",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5112/engineering/test-pipeline-v8.svg",
+        teampage: "https://2024.igem.wiki/Leiden/engineering",
+        width: 4
+    },
+    {
+        title: "pYSD099 with Promotor",
+        tags: ["plasmid", "lab"],
+        author: "Leiden",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5112/engineering/pissdogg.svg",
+        teampage: "https://2024.igem.wiki/Leiden/engineering"
+    },
+    {
+        title: "ALPACA Probe",
+        tags: ["probe", "lab"],
+        author: "Leiden",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5112/engineering/alpaca-ysd-probe-v7.svg",
+        teampage: "https://2024.igem.wiki/Leiden/engineering"
+    },
+    {
+        title: "Lung",
+        tags: ["organ"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/lung.svg",
+        teampage: "https://2024.igem.wiki/freiburg/"
+    },
+    {
+        title: "Biofilm Landing",
+        tags: ["biofilm", "lab"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/biofilm-landing.svg",
+        teampage: "https://2024.igem.wiki/freiburg/"
+    },
+    {
+        title: "Cationic AMP",
+        tags: ["peptide", "lab"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/cationic-amp.svg",
+        teampage: "https://2024.igem.wiki/freiburg/"
+    },
+    {
+        title: "Liposome with Plasmid",
+        tags: ["plasmid", "nanobody", "liposome"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/liposome-plasmid-1.svg",
+        teampage: "https://2024.igem.wiki/freiburg/"
+    },
+    {
+        title: "Bilipid Layer",
+        tags: ["lab", "nanobody"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/bilipid-b.svg",
+        teampage: "https://2024.igem.wiki/freiburg/"
+    },
+    {
+        title: "Biofilm Disruption",
+        tags: ["biofilm", "lab"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/biofilm-p-disruption.svg",
+        teampage: "https://2024.igem.wiki/freiburg/"
+    },
+    {
+        title: "Pore Formation",
+        tags: ["lab", "channel", "membrane"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/pore-formation.svg",
+        teampage: "https://2024.igem.wiki/freiburg/"
+    },
+    {
+        title: "Bacteria strain comparison",
+        tags: ["bacteria"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/omp8vswildtype-new-new.svg",
+        teampage: "https://2024.igem.wiki/freiburg/description/"
+    },
+    {
+        title: "eCPX-SpyTag",
+        tags: ["lab"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/spytag-spycatcher-new.svg",
+        teampage: "https://2024.igem.wiki/freiburg/description/"
+    },
+    {
+        title: "AMP overview",
+        tags: ["lab", "bacteria", "cells", "microbes", "funghi"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/amp-overview2.svg",
+        teampage: "https://2024.igem.wiki/freiburg/description/"
+    },
+    {
+        title: "Vesicle",
+        tags: ["nanobody", "vesicle"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/d-vesicle.svg",
+        teampage: "https://2024.igem.wiki/freiburg/description/"
+    },
+    {
+        title: "OMV biogenesis",
+        tags: ["nanobody", "vesicle"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/d-omv1.svg",
+        teampage: "https://2024.igem.wiki/freiburg/description/"
+    },
+    {
+        title: "Aerosol Delivery System",
+        tags: ["medical"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/d-nebulizer.svg",
+        teampage: "https://2024.igem.wiki/freiburg/description/"
+    },
+    {
+        title: "Future Directions",
+        tags: ["other"],
+        author: "Freiburg",
+        year: "2024",
+        url: "https://static.igem.wiki/teams/5057/d-future.svg",
+        teampage: "https://2024.igem.wiki/freiburg/description/"
+    },
+    {
+        title: "",
+        tags: ["hp"],
+        author: "Freiburg",
+        year: "2024",
+        url: "",
+        teampage: "https://2024.igem.wiki/freiburg/description/"
+    },
+    {
+        title: "",
+        tags: ["hp"],
+        author: "Freiburg",
+        year: "2024",
+        url: "",
+        teampage: "https://2024.igem.wiki/freiburg/description/"
+    }
 
 ]
