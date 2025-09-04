@@ -18,7 +18,7 @@
 		%\let\oldtam\tam
 		%\renewcommand{\tam}{0.9\columnwidth}
 		%\setlength{\columnseprule}{\linhaColuna}
-		\chapter{#1 \\[1ex] \normalsize\textit{Zuletzt aktualisiert: \today}}
+		\chapter{#1}}
 		%\begin{multicols}{2}[\chapter{#1}]
 	}%
 	{%
@@ -65,7 +65,9 @@
 		\centering
 	} % before-code
 	[
-	\vspace{-4ex}%
+    \vspace{1ex}%
+    \textit{Last updated on: \chapterdate}
+    \vspace{-4ex}%
 	\rule{\textwidth}{0.3pt}
 	] % after-code
 
