@@ -2,7 +2,7 @@
 %! Date = 04.09.25
 
 
-\section{Hardware}
+\section{Hardware} \label{sec:hardware}
 The most obvious requirement is a laptop or computer.
 In my experience, laptop-tablet 2-in-1 devices can be difficult to work with due to limitations in handling coding tasks.
 Additionally, not all laptops can smoothly run the required coding environments.
@@ -11,3 +11,175 @@ On personal devices, these problems can usually be fixed (with an internet searc
 laptops, users may not have the administrative rights needed to make necessary changes. \\ \newline
 I recommend to address these issues on debut, as deferred tasks tend to not get done in iGEM projects and trying to fix
 them last minute may lead to delays that are difficult to recover from.
+
+
+\section{GitLab Access and Cloning the Repository} \label{sec:gitlab}
+To contribute to the Wiki, every team member needs to clone the repository from the iGEM GitLab.
+This requires each member to have their iGEM account credentials (username and password) ready.
+I recommend using SSH cloning for a more secure and stable connection. \\ \newline
+
+\textbf{HTTPS Cloning:} This method requires users to enter their iGEM credentials (username and password) every time they push or pull code.
+It is straightforward but can become annoying due to repeated logins. \index{HTTPS Cloning}
+\begin{itemize}
+    \item \textbf{Advantages:} Easy to set up and doesn't require additional software.
+    \item \textbf{Disadvantages:} Requires entering credentials frequently, less secure than SSH\@.
+\end{itemize}
+\textbf{SSH Cloning:} This method uses an SSH key to authenticate, avoiding the need to repeatedly enter a username and password.
+It is generally considered more secure and efficient.
+\begin{itemize}
+    \item \textbf{Advantages:} No need for constant credential input, more secure, ideal for frequent use.
+    \item \textbf{Disadvantages:} Requires setting up an SSH key and ensuring the necessary software is installed.
+\end{itemize}
+
+\subsection*{Setting Up SSH Cloning:}
+For SSH cloning, each team member needs an \textbf{SSH key generator} installed.
+You can check if your system has this by typing \texttt{ssh} in the terminal.
+If the system does not recognize the command, you’ll need to install an SSH key generator that fits your operating system. \\ \newline
+It is best to explain to the team what an SSH key is: it is a pair of cryptographic keys used for secure access.
+Always remember to \textbf{only use and share the public key}, never the private key.
+The public key typically has the file extension \texttt{.pub}.
+
+\begin{quote}
+    \textbf{Note:} On some devices, \texttt{.pub}\index{.pub} files may attempt to open with Microsoft Publisher or produce an error about missing software.
+    You can simply open the file using the ``Open with\ldots'' option and choose a text editor.
+\end{quote}
+
+\subsection{Step-by-Step explanation} \label{subsec:ssh-explanation}
+\begin{enumerate}
+    \item \textbf{Check for SSH Key Generator:}  \index{SSH Key}
+    Open your terminal and type \texttt{ssh} to check if the key generator is installed.
+    If not, install it (e.g., OpenSSH for Windows or macOS/Linux).
+    \item \textbf{Generate the SSH Key:}
+    In the terminal, enter the command to generate the SSH key (e.g. \texttt{ssh-keygen}). \\
+    You will be asked:  \\ \newline
+    \texttt{Enter file in which to save the key (/home/user/.ssh/id\_ed25519):} \\ \newline
+    Press \textbf{Enter} to accept the default file name or enter a different name to create a new key if the file already exists.
+
+    \item \textbf{Set a Passphrase (Optional):}   \\
+    At the prompt:  \\ \newline
+    \texttt{Enter passphrase (empty for no passphrase):} \\ \newline
+    Choose to set a passphrase or press \textbf{Enter} to skip.
+    You will be prompted to confirm the passphrase.
+
+    \item \textbf{View Key Information:}
+    After generating the key, the terminal will display the file name, its fingerprint, and a randomart image of the key.
+
+    \item \textbf{Log into iGEM GitLab:}  \index{GitLab}
+    Go to \href{https://gitlab.igem.org/}{iGEM GitLab} and log in with your credentials.
+
+    \item \textbf{Access SSH Key Settings:}  \index{SSH Key}
+    \begin{itemize}
+        \item Click on your profile picture (top right) and select \textbf{Preferences}.
+        \item This will take you to the \textbf{User Settings} page.
+    \end{itemize}
+
+    \item \textbf{Add New SSH Key:}
+    \begin{itemize}
+        \item On the left, click \textbf{SSH Keys}.
+        \item Then, click \textbf{Add new key}.
+    \end{itemize}
+
+    \item \textbf{Copy Your Public Key:}
+    \begin{itemize}
+        \item Open the public key file you just generated (it typically ends with \texttt{.pub}).
+        \item \textit{Note}: You may need to reveal hidden files to access the \texttt{.ssh} folder.
+        \item Copy the entire content of the public key file.
+        It will start with \texttt{ssh-ed25519} or \texttt{ssh-rsa}.
+    \end{itemize}
+
+    \item \textbf{Paste the Key in GitLab:}  \index{GitLab}
+    \begin{itemize}
+        \item Paste the public key content into the \textbf{Key} box on GitLab.
+        \item Add a \textbf{Title} (e.g., "My Laptop Key").
+        \item Click \textbf{Add key} to save it.
+    \end{itemize}
+\end{enumerate}
+
+After completing these steps, your SSH key will be added, and you can now clone repositories via SSH! \\
+For that, install the necessary software as described in the following section.
+
+
+\section{Coding Environment (IDE) and Git} \label{sec:ide} \index{Git} \index{IDE}
+I recommend every team member installing a coding environment (IDE) to work efficiently.
+Popular choices include \texttt{Visual Studio Code} or \texttt{IntelliJ IDEA}. \\ \newline
+
+While it's possible to edit files directly on GitLab through:
+\begin{itemize}
+    \item \textbf{The Text Editor:} No helper tools to catch errors.
+    \item \textbf{The Web IDE:} Limited error-checking capabilities. \index{IDE!Web}
+\end{itemize}
+
+A standard IDE provides (better) error detection, auto-completion, and other productivity tools that make coding more efficient and less error-prone. \\ \newline
+But an IDE alone does not suffice.
+To start working with Git, you'll need to install it on your system and configure it with your username and email, which will identify your contributions.
+\index{Git}
+
+\paragraph{1. Install Git}: Either download the installer from
+\href{https://git-scm.com}{https://git-scm.com/downloads} and follow the setup instructions depending on your operating system or google a way to install it via the command line.
+
+\paragraph{2. Set Up Username and Email}: After installing Git, configure your username and email to be used in your
+commits.
+This ensures that every commit you make is properly attributed to you.
+\begin{enumerate}
+    \index{Git}
+    \item Open a terminal or command prompt.
+    \item Set your username by running:
+    \begin{verbatim}
+    git config --global user.name "Your Name"
+    \end{verbatim}
+    \item Set your email address by running:
+    \begin{verbatim}
+    git config --global user.email "your.email@example.com"
+    \end{verbatim}
+\end{enumerate}
+\item You can check if your Git username and email are set correctly by running:
+\begin{verbatim}
+git config --global --list
+\end{verbatim}
+
+\section{Cloning your repository} \label{sec:cloning} \index{Cloning}
+After installing Git and an IDE, you are ready to clone your repository.
+\paragraph{1. Go to Your Project Page on GitLab:}
+Navigate to the iGEM GitLab project page you want to clone.  \index{GitLab}
+\paragraph{2. Open the Code Menu:}
+On the project page, click on the blue \textbf{Code} button near the top of the screen.
+\paragraph{3. Select "Open in Your IDE":}
+From the dropdown, select \textbf{Open in your IDE} for simplicity.
+You will be presented with options to select between different IDEs. Choose either:
+\begin{itemize}
+    \item \textbf{Visual Studio Code (SSH)}
+    \item \textbf{IntelliJ IDEA (SSH)}
+\end{itemize}
+\paragraph{4. Choose a Folder:}
+A file explorer will open, prompting you to select a folder on your local machine where the repository will be saved.
+I advise against saving the folder in a cloud.
+Git already backs your work up, if you push (upload it).
+\paragraph{Trust the Authors (if prompted):}
+If a pop-up appears asking whether you trust the project’s authors, confirm by selecting \textbf{Trust} to ensure you can edit the files without restrictions.
+
+\section{Other Software} \label{sec:other-software}
+Depending on the type of project in your repository, you will need to install specific package managers and dependencies.
+For React projects, some of those will already be listed in your \nameref{sec:config-file}s, additional ones you
+need to install as the necessity arises. \\
+This will be covered in \nameref{ch:react}.
+
+
+\section*{Additional Considerations}
+Regardless of the project type, be aware that there may be additional packages, scripts or software required
+depending on what is already installed on your device.
+The error messages you encounter will usually indicate what is missing. \\ \newline
+Further, you might need to think about:
+\begin{itemize}
+    \item \textbf{Using the Correct Shell:} Some commands might differ based on the shell you’re using (e.g., bash, zsh, cmd, PowerShell).
+    Ensure you are using the correct commands for the terminal of your operating system. \index{Terminal} \index{Shell}
+
+    \item \textbf{using terminals as an administrator} Some changes or installations can only be made if you do them
+    as an administrator.
+    It can differ from operating system to operating system how you install things as an administrator.
+
+    \item \textbf{Common Dependency Errors:} If you encounter errors related to dependencies, search for the specific error message online, as there may be community solutions or discussions about the issue.
+
+    \item \textbf{File Permissions:}  On some operating systems, particularly Linux and macOS, you may need to adjust file permissions for certain operations.
+    That does not automatically mean you should not do the operation.
+\end{itemize}
+

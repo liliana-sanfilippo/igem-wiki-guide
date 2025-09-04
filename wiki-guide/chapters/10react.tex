@@ -1,0 +1,33 @@
+%! Author = lili
+%! Date = 04.09.25
+
+
+\section{Getting started with your React project} \label{sec:react-start}
+\paragraph{Updating Package Managers:}  If you already have \texttt{npm} or \texttt{yarn} installed, consider
+updating them to the latest version to avoid compatibility issues.
+You do not need both package managers, one should be sufficient.
+If you are unsure, read about the
+\href{https://www.geeksforgeeks.org/node-js/difference-between-npm-and-yarn/}{differences} between the managers to
+make a decision. \\
+Otherwise \textbf{Install Package Mangers:}  \index{Package Managers} \index{npm} \index{Node.js} \index{yarn}
+\begin{itemize}
+    \item \textbf{node}: Make sure you have Node.js installed.
+    You can check by running \texttt{node --version}.
+    If it’s not installed, download it from the \href{https://nodejs.org/}{Node.js website}.
+    \item \textbf{npm:} It should come bundled with Node.js.
+    \item \textbf{yarn}: If you don't already have yarn installed, you can usually do so by running the following
+    command: \begin{verbatim}
+    npm install --global yarn
+    \end{verbatim}
+\end{itemize}
+
+\paragraph{Install Project Dependencies:} Navigate to your project directory in the terminal and run:
+\begin{verbatim}
+    yarn install
+\end{verbatim}
+or
+\begin{verbatim}
+    npm install
+\end{verbatim}
+
+\paragraph{Ensure Compatible Node.js Version:} Make sure your Node.js version is either \texttt{\^\ 8.18.0} or \texttt{>=20.0.0} to avoid compatibility issues, with \texttt{18.20.0} being the recommended version in 2024. \index{Node.js}
