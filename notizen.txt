@@ -2,6 +2,9 @@ Clickable MindMap:
 https://2023.igem.wiki/sdu-denmark/experiments
 https://2024.igem.wiki/freiburg/human-practices/
 
+Sidebar:
+https://2025.igem.wiki/boston-boslab/team
+
 3D model:
 https://2023.igem.wiki/sdu-denmark/model
 https://2024.igem.wiki/Leiden/model (siehe model ganz untern)
@@ -37,6 +40,8 @@ https://2024.igem.wiki/marburg/description#
 
 Progress Bar:
 https://2024.igem.wiki/Leiden/human-practices
+https://2025.igem.wiki/ashesighana/description
+https://2025.igem.wiki/cuhk-shenzhen/#/description
 
 Code /Software:
 https://2024.igem.wiki/freiburg/contribution/
@@ -47,18 +52,45 @@ https://2023.igem.wiki/nmu-china/description (logo)
 https://2024.igem.wiki/freiburg/results/
 https://2024.igem.wiki/freiburg/achievements/
 https://2022.igem.wiki/aachen/
+https://2025.igem.wiki/buap-puebla/vector
 
+Seitenwechsel:
+https://2025.igem.wiki/cuhk-shenzhen/#/description
+
+Graphen:
+https://2025.igem.wiki/ashesighana/education
+https://gitlab.igem.org/2025/ashesighana/-/blob/main/src/contents/education.tsx?ref_type=heads
+
+Statistik:
+https://2025.igem.wiki/ashesighana/education ganz oben
 
 Hintergrund:
 https://2022.igem.wiki/aachen/engineering/
 
 HP Darstellung:
 https://2022.igem.wiki/wageningen-ur/human-practices#government
+Feedback: https://2025.igem.wiki/city-of-london-uk/human-practices
+
+Timeline Design: https://2025.igem.wiki/city-of-london-uk/human-practices
+Auch: https://2025.igem.wiki/dtu-denmark/human-practices
+(Besodners wie die einzelnen Beiträge dargestellt sind mit Tags und so)
 
 Desc Aufbau:
 https://2022.igem.wiki/wageningen-ur/description
 
+ANIMATIONEN
+Blasen animation:
+https://2025.igem.wiki/bohemiabio/plasmid
+Linie: https://2025.igem.wiki/ashesighana/description
+Scroll Animations: https://gitlab.igem.org/2025/ashesighana/-/tree/main/src/hooks?ref_type=heads
 
+
+Design:
+https://2025.igem.wiki/basis-china/
+https://2025.igem.wiki/buap-puebla/vector
+https://2025.igem.wiki/duke/hardware
+https://2025.igem.wiki/cuhk-shenzhen/#/description
+https://2025.igem.wiki/city-of-london-uk/human-practices
 
 SVG Teile noch:
 https://2022.igem.wiki/wageningen-ur/ (Main page)
@@ -74,3 +106,18 @@ https://2020.igem.org/Team:Moscow (alle)
 https://2019.igem.org/Team:FAU_Erlangen/Description (alle)
 https://2019.igem.org/Team:UCL (alle)
 https://2023.igem.wiki/mcgill/description/ (alle)
+
+Nach svgs fragen:
+https://2025.igem.wiki/bohemiabio/plasmid
+https://2025.igem.wiki/austin-utexas/
+
+
+Plasmid Interaktiv:
+https://2025.igem.wiki/bohemiabio/plasmid
+
+Dokumentation:
+https://gitlab.igem.org/2025/basis-china
+
+
+Die haben irgendwelhe tools die man mal sammeln könnte:
+https://2025.igem.wiki/bohemiabio
