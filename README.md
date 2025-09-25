@@ -23,4 +23,6 @@ Documentation for other tools or packages by myself is not included, but wil be 
 To get to the guide, simply click the link above (Quick links). It awlays contains the newest version, since the document is updated automatically. 
 
 ## The template wiki
-The template wiki is currently being reworked and transferred here as well as the wiki guide. Technical documentation will be added to the READMDE. 
+The template wiki is currently being reworked and transferred here as well as the wiki guide. Technical documentation will be added to the README. 
+
+
