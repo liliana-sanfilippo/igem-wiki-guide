@@ -22,6 +22,12 @@ Documentation for other tools or packages by myself is not included, but wil be 
 ## The guide
 To get to the guide, simply click the link above (Quick links). It awlays contains the newest version, since the document is updated automatically. 
 
+Based on the first version published during the PreCyse project. 
+
+
+<img  height="200" alt="wiki-broschure-v1-2-1-002" src="https://github.com/user-attachments/assets/049e6845-d528-41cf-b036-643e2f3de3a0" />
+
+
 ## The template wiki
 The template wiki is currently being reworked and transferred here as well as the wiki guide. Technical documentation will be added to the README. 
 
