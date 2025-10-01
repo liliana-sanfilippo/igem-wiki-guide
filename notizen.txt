@@ -42,6 +42,7 @@ Progress Bar:
 https://2024.igem.wiki/Leiden/human-practices
 https://2025.igem.wiki/ashesighana/description
 https://2025.igem.wiki/cuhk-shenzhen/#/description
+https://2025.igem.wiki/aachen/gsmm#growth0  (progressbar & backtotop button)
 
 Code /Software:
 https://2024.igem.wiki/freiburg/contribution/
