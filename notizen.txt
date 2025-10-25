@@ -4,13 +4,22 @@ https://2024.igem.wiki/freiburg/human-practices/
 
 Sidebar:
 https://2025.igem.wiki/boston-boslab/team
+https://2025.igem.wiki/hopkins/human-practices
+https://2025.igem.wiki/vilnius-lithuania/engineering/
+https://2025.igem.wiki/ucas-china/engineering
+https://2025.igem.wiki/bnuzh-china/engineering
+
+
+Foootbar:
+https://2025.igem.wiki/szu-china/design
 
 3D model:
 https://2023.igem.wiki/sdu-denmark/model
 https://2024.igem.wiki/Leiden/model (siehe model ganz untern)
 
-Boardgame:
+Games:
 https://2023.igem.wiki/sdu-denmark/hp-education
+https://2025.igem.wiki/gems-taiwan/education#section5
 
 ToTop Button
 https://2023.igem.wiki/nmu-china/description (logo)
@@ -18,10 +27,13 @@ https://2023.igem.wiki/nmu-china/description (logo)
 Main Page design:
 https://2024.igem.wiki/aalto-helsinki/
 https://2024.igem.wiki/freiburg/
+https://2025.igem.wiki/nju-china/
 
 Engineering:
 https://2024.igem.wiki/dtu-denmark/engineering
 https://2024.igem.wiki/freiburg/engineering/
+https://2025.igem.wiki/gems-taiwan/engineering
+https://2025.igem.wiki/bnuzh-china/engineering
 
 Illustration style:
 https://2024.igem.wiki/epfl/
@@ -31,18 +43,27 @@ https://2023.igem.wiki/insaenslyon1/human-practices
 Animation:
 https://2024.igem.wiki/epfl/description
 https://2024.igem.wiki/duesseldorf/
+https://2025.igem.wiki/bit-llm/members
 
 Timeline:
 https://2024.igem.wiki/Leiden/human-practices
+https://2025.igem.wiki/unimuenster/human-practices
+https://2025.igem.wiki/bnuzh-china/human-practices
+https://2025.igem.wiki/cuhk-shenzhen/human-practices
 
 Navbar:
 https://2024.igem.wiki/marburg/description#
+https://2025.igem.wiki/vilnius-lithuania/software/
+https://2025.igem.wiki/nu-kazakhstan/stakeholders
+https://2025.igem.wiki/ucas-china/engineering
+https://2025.igem.wiki/groningen/software
 
 Progress Bar:
 https://2024.igem.wiki/Leiden/human-practices
 https://2025.igem.wiki/ashesighana/description
 https://2025.igem.wiki/cuhk-shenzhen/#/description
 https://2025.igem.wiki/aachen/gsmm#growth0  (progressbar & backtotop button)
+https://2025.igem.wiki/munich/project-description/ (back to to progress bar)
 
 Code /Software:
 https://2024.igem.wiki/freiburg/contribution/
@@ -92,6 +113,15 @@ https://2025.igem.wiki/buap-puebla/vector
 https://2025.igem.wiki/duke/hardware
 https://2025.igem.wiki/cuhk-shenzhen/#/description
 https://2025.igem.wiki/city-of-london-uk/human-practices
+https://2025.igem.wiki/bit-china/software
+https://2025.igem.wiki/hust-china/design/
+https://2025.igem.wiki/ubc-vancouver/software/
+https://2025.igem.wiki/ucas-china/engineering
+https://2025.igem.wiki/bnuzh-china/engineering
+https://2025.igem.wiki/thessaloniki/software
+https://2025.igem.wiki/cuhk-shenzhen/software
+https://2025.igem.wiki/cjuh-jlu-china/software
+https://2025.igem.wiki/tianjin/
 
 SVG Teile noch:
 https://2022.igem.wiki/wageningen-ur/ (Main page)
@@ -107,10 +137,13 @@ https://2020.igem.org/Team:Moscow (alle)
 https://2019.igem.org/Team:FAU_Erlangen/Description (alle)
 https://2019.igem.org/Team:UCL (alle)
 https://2023.igem.wiki/mcgill/description/ (alle)
+https://2025.igem.wiki/bnuzh-china/ ( alle)
+https://2025.igem.wiki/nju-china/ (alle)
 
 Nach svgs fragen:
 https://2025.igem.wiki/bohemiabio/plasmid
 https://2025.igem.wiki/austin-utexas/
+https://2025.igem.wiki/afmu-china/description
 
 
 Plasmid Interaktiv:
@@ -124,3 +157,78 @@ Homepage: https://2025.igem.wiki/hpi-potsdam/
 
 Die haben irgendwelhe tools die man mal sammeln könnte:
 https://2025.igem.wiki/bohemiabio
+
+
+code darstellung:
+https://2025.igem.wiki/ucsc/software#readme
+https://2025.igem.wiki/gems-taiwan/software#section6
+
+
+Social media:
+https://2025.igem.wiki/ucsc/human-practices#
+
+
+steckbriefe:
+https://2025.igem.wiki/ucsc/members
+https://2025.igem.wiki/bit-china/team
+
+
+Glossary:
+https://2025.igem.wiki/ucsc/dry-lab-glossary
+https://2025.igem.wiki/ucsc/wet-lab-glossary
+
+
+Part collections:
+https://2025.igem.wiki/ucsc/contribution
+
+
+Lists:
+https://2025.igem.wiki/ucsc/next-steps
+https://2025.igem.wiki/bit-china/model
+https://2025.igem.wiki/cjuh-jlu-china/software
+
+
+Tabs:
+https://2025.igem.wiki/gems-taiwan/human-practices#overview
+https://2025.igem.wiki/gems-taiwan/human-practices#experts
+https://2025.igem.wiki/gems-taiwan/model
+https://2025.igem.wiki/gems-taiwan/engineering
+https://2025.igem.wiki/bnuzh-china/implementation#sub4-1
+
+
+Gallery:
+https://2025.igem.wiki/gems-taiwan/education#section3
+https://2025.igem.wiki/bnuzh-china/implementation#sub4-1
+
+
+HP Analysis:
+https://2025.igem.wiki/gems-taiwan/entrepreneurship
+
+Calendar:
+https://2025.igem.wiki/gems-taiwan/notebook
+
+
+Workflow:
+https://2025.igem.wiki/gems-taiwan/measurement
+
+
+Protocols:
+https://2025.igem.wiki/ucalgary/experiments
+
+
+Values:
+https://2025.igem.wiki/ucalgary/entrepreneurship
+
+
+Gamification:
+(ganz untern) https://2025.igem.wiki/bit-china/software
+
+
+Judging Page:
+https://2025.igem.wiki/groningen/medal-criteria
+https://2025.igem.wiki/uzurich/medal-criteria
+
+
+
+Software GitLab verweist auf Software Seite also muss es die auch geben!
++ Wenn man die example seiten nicht eaus nimmt, kann man die immer noch ansteuern
