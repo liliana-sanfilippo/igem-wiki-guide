@@ -232,6 +232,11 @@ https://2025.igem.wiki/uzurich/medal-criteria
 Map:
 https://2025.igem.wiki/tu-eindhoven/human-practices
 
+Social media:
+https://2025.igem.wiki/ionis-paris/communication-and-events
+
+Intro + alles: https://2025.igem.wiki/uga/
+
 
 Software GitLab verweist auf Software Seite also muss es die auch geben!
 + Wenn man die example seiten nicht eaus nimmt, kann man die immer noch ansteuern
