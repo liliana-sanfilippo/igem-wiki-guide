@@ -240,3 +240,16 @@ Intro + alles: https://2025.igem.wiki/uga/
 
 Software GitLab verweist auf Software Seite also muss es die auch geben!
 + Wenn man die example seiten nicht eaus nimmt, kann man die immer noch ansteuern
+
+
+Die hier mal abchecken:
+https://2025.igem.wiki/afcm-egypt/members#top
+Schlechtes Beispiel Cursor: https://2025.igem.wiki/buct-china/
+https://2025.igem.wiki/ccu-taiwan/
+https://2025.igem.wiki/cjuh-jlu-china/
+https://2025.igem.wiki/dbhs-ca/
+https://2025.igem.wiki/dnhs-sandiego-ca/
+https://2025.igem.wiki/ubc-vancouver/
+https://2025.igem.wiki/uflorida/
+
+Schlechtes beispiel social qr codes: https://2025.igem.wiki/hkust-gz/

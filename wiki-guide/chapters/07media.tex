@@ -1,3 +1,40 @@
 %! Author = lili
 %! Date = 25.09.25
 
+For all documents and documentation, remember to create Backups!
+Consider to regularly back up your images and other media out   side of the iGEM upload tool to avoid losing files in case of an error, accidental deletion, or system issues.
+\section{Pictures}\label{sec:pictures}
+To maintain a clean, professional look on your iGEM wiki, it is a good idea to standardize image dimensions.
+Cropping all images to just two sizes—one for landscape and one for vertical ensures a consistent aspect ratio, making it easier to place images throughout the site.
+This not only tidies up the overall design but also simplifies the layout process, ensuring images align neatly and harmoniously across different sections of the site.
+
+\subsection*{Relevant css properties}
+
+\subsubsection*{object-fit}
+This is used to control how an image or video is resized to fit its content box.
+See: \url{https://www.geeksforgeeks.org/css/css-the-object-fit-property/}.
+\begin{verbatim}
+    object-fit: contain;
+    object-fit: cover;
+    object-fit: fill;
+    object-fit: none;
+    object-fit: scale-down;
+\end{verbatim}
+
+\subsubsection*{justify-content}
+It is used to align the flexible box container's items along the main axis of a flex container.
+Meaning if your image height ow width is set to a smaller value than the image is actually, you can set what part of the image to
+show/center.
+See \url{https://www.geeksforgeeks.org/css/css-justify-content-property/}.
+\begin{verbatim}
+    justify-content: center;
+    justify-content: start;
+    justify-content: end;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: left;
+    justify-content: right;
+    /* more available */
+\end{verbatim}
+
+%Additional considerations can be:
