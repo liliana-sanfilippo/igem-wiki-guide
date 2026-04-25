@@ -252,4 +252,5 @@ https://2025.igem.wiki/dnhs-sandiego-ca/
 https://2025.igem.wiki/ubc-vancouver/
 https://2025.igem.wiki/uflorida/
 
-Schlechtes beispiel social qr codes: https://2025.igem.wiki/hkust-gz/
+
+% Schlechtes beispiel social qr codes: https://2025.igem.wiki/hkust-gz/

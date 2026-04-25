@@ -1,13 +1,15 @@
 %! Author = lili
 %! Date = 25.09.25
 
-To be able to contribute to the iGEM Wiki, it is beneficial for all team members to have a basic understanding  of \textbf{HTML\index{HTML}} and for at least the wiki team members to have a good understanding of \textbf{HTML\index{HTML}} and a basic understanding of \textbf{CSS \index{CSS}}.
+To be able to contribute to the iGEM Wiki, it is beneficial for all team members to have a basic understanding of \textbf{HTML\index{HTML}} and for at least the wiki team members to have a good understanding of \textbf{HTML\index{HTML}} and a basic understanding of \textbf{CSS \index{CSS}}.
 Familiarity with these languages will enable everyone to assist with content creation, formatting, and layout
 adjustments.
 
 Consider organizing internal wiki workshops early in the season to teach the basics of HTML and CSS. This lowers the entry barrier for new members and enables more people to contribute to content creation and formatting. \\ \newline
 
+
 \section{HTML\index{HTML}}\label{sec:html}
+
 \paragraph{HTML\index{HTML}} is used to define the structure and content of a webpage.
 It determines elements such as
 headings, paragraphs, tables, images, links, and sections.
@@ -21,25 +23,26 @@ There are many free resources available online, for example:
 
 If you are in a hurry, here are some key concepts to get started:
 
-\begin{itemize} \index{Essentials}
-\item \textbf{Opening and Closing Tags}: Each HTML\index{HTML} element typically consists of an opening tag and a closing tag.
-For example, in \texttt{<p>Your text here</p>}, \texttt{<p>} is the opening tag, and \texttt{</p>} is the closing tag.
+\begin{itemize}
+    \index{Essentials}
+    \item \textbf{Opening and Closing Tags}: Each HTML\index{HTML} element typically consists of an opening tag and a closing tag.
+    For example, in \texttt{<p>Your text here</p>}, \texttt{<p>} is the opening tag, and \texttt{</p>} is the closing tag.
 
-\item \textbf{Nesting of Tags}: HTML\index{HTML} tags can be nested within one another, meaning that one tag can contain another.
-For instance, \texttt{<div><p>Your text here</p></div>}.
+    \item \textbf{Nesting of Tags}: HTML\index{HTML} tags can be nested within one another, meaning that one tag can contain another.
+    For instance, \texttt{<div><p>Your text here</p></div>}.
 
-\item \textbf{Semantic HTML\index{HTML}}: Using appropriate tags for their intended purpose (like \texttt{<header>}, \texttt{<footer>}, \texttt{<article>}, etc.) improves accessibility and SEO.
+    \item \textbf{Semantic HTML\index{HTML}}: Using appropriate tags for their intended purpose (like \texttt{<header>}, \texttt{<footer>}, \texttt{<article>}, etc.) improves accessibility and SEO.
 
-\item \textbf{Attributes}: HTML\index{HTML} elements can have attributes that provide additional information about them.
-For example, the \texttt{<a>} tag uses the \texttt{href} attribute to specify the link's destination: \texttt{<a href="https://example.com">Link</a>}.
+    \item \textbf{Attributes}: HTML\index{HTML} elements can have attributes that provide additional information about them.
+    For example, the \texttt{<a>} tag uses the \texttt{href} attribute to specify the link's destination: \texttt{<a href="https://example.com">Link</a>}.
 \end{itemize}
 
 
 \section{CSS\index{CSS} and SCSS\index{SCSS}}\label{sec:css-and-scss} \index{HTML!Styling}
+
 \paragraph{CSS\index{CSS}} is used to style and arrange HTML elements.
 It controls colors, fonts, spacing, layouts, animations, and responsive behavior for different screen sizes.
 Even a basic understanding of CSS allows team members to make quick design adjustments and improve the overall appearance of the wiki. \\ \newline
-
 
 \subsection*{Difference Between CSS and SCSS\index{SCSS}}
 
@@ -50,19 +53,15 @@ While CSS allows for styling web pages, SCSS\index{SCSS} offers more advanced ca
 
 HTML\index{HTML} provides the structure and content of a webpage, while CSS handles the visual presentation.
 HTML\index{HTML} elements are styled using CSS selectors, allowing developers to specify how different components should look.
-For example, a \texttt{<h1>} element can be styled to change its font size, color, and alignment using CSS.
-
-
+For example, a \texttt{<h1>} element can be styled to change its font size, color, and alignment using CSS. \\
 Resources:
 \begin{itemize}
     \item \url{https://www.w3schools.com/css/default.asp}
     \item \url{https://www.geeksforgeeks.org/css/css-complete-guide/}
     \item \url{https://www.w3schools.in/scss/introduction}
 \end{itemize}
-
-
 Basic concepts for a quick start:
-\begin{enumerate}
+\begin{itemize}
     \item \textbf{Selectors}: There are different types of CSS selectors (element, class, ID). For example, \texttt{.classname} targets all elements with that class, while \texttt{\#idname} targets a unique element.
 
     \item \textbf{Box model}: The box model describes how elements are rendered and how spacing around them is
@@ -73,8 +72,7 @@ Basic concepts for a quick start:
 
     \item \textbf{Responsive design through media queries}: Media queries enable styles to adapt based on screen size,
     orientation, or resolution, providing an optimal user experience across devices.
-\end{enumerate}
-
+\end{itemize}
 
 \subsection*{Personal Variables}
 Setting personal colors and variables in CSS is a good way to ensure design consistency, enhance maintainability, and make your styles easier to modify across an entire project. You can centralize design elements like colors, sizes, and gradients, making it simpler to update and reuse them throughout your code.
@@ -133,19 +131,19 @@ Here, \texttt{--node-size} defines a consistent size that can be applied to elem
     \end{lstlisting}
 \end{mybox}
 
+
 \section{JavaScript and TypeScript}\label{sec:javascript-and-typescript}
-
 While HTML and CSS define the structure and appearance of a webpage, \textbf{JavaScript\index{JavaScript}} adds functionality and interactivity.
-It allows websites to react to user input, update content dynamically, create animations, validate forms, or load data without reloading the page. \\ \newline
+It allows websites to react to user input, update content dynamically, create animations, validate forms, or load data without reloading the page.
 
-JavaScript can be used to create interactive diagrams, navigation menus, expandable content sections, image galleries, animated statistics, or custom user experiences.
-Even small scripts can significantly improve usability and presentation quality. \\ \newline
+\paragraph{JavaScript} can be used to create interactive diagrams, navigation menus, expandable content sections, image galleries,
+animated statistics, or custom user experiences.
+Even small scripts can significantly improve usability and presentation quality.
 
 \paragraph{TypeScript\index{TypeScript}} is an extended version of JavaScript that adds static typing and improved tooling.
 It helps prevent programming errors, improves code readability, and becomes especially useful when several people collaborate on the same project.
 For larger wiki projects, TypeScript is often preferable to plain JavaScript.
 My template uses TypeScript\\ \newline
-
 Relevant differences are:
 \begin{itemize}
     \item \textbf{Typing}: JavaScript is dynamically typed, meaning variables can hold any data type, and type checking occurs at runtime.
@@ -157,14 +155,10 @@ Relevant differences are:
 
     \item \textbf{Language Features}: TypeScript supports modern JavaScript features and introduces additional functionalities not present in standard JavaScript, like interfaces and decorators.
 \end{itemize}
-
 %Wiki team members responsible for advanced features should understand variables, functions, events, DOM
 %manipulation, modules, and debugging with browser developer tools. \\ \newline
-
 If the team has little prior programming experience, it is perfectly reasonable to begin with JavaScript and later transition to TypeScript when the project grows in complexity. \\ \newline
-
 Useful learning resources include:
-
 \begin{itemize}
     \item \url{https://www.w3schools.com/typescript/index.php}
     \item \url{https://www.w3schools.com/js/default.asp}
