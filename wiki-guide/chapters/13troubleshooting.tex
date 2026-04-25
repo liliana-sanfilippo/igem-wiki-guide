@@ -1,3 +1,56 @@
 %! Author = lili
 %! Date = 25.09.25
 
+Additionally to the iGEM Slack, platforms such as \href{https://stackoverflow.com/}{Stackoverflow} or \href{https://www.reddit.com/}{Reddit} can be useful for finding answers to coding questions.
+
+\section{Debugging}
+Implementing various debugging strategies can help identify and resolve issues efficiently and reducing time spend
+troubleshooting.
+
+Recommended strategies:
+
+\paragraph{Try-catch statements} are a classic method for handling errors in code.
+This approach allows to attempt to execute a block of code and gracefully handle any exceptions that arise.
+By capturing errors, developers can provide meaningful feedback or take corrective actions without crashing the application.
+    \begin{mybox}
+        \begin{lstlisting}[language=TypeScript]
+try {
+    {/* Code that may throw an error */}
+    const response = await fetch(url);
+    const data = await response.json();
+} catch (error) {
+    console.error("Error fetching data:", error);
+    alert("There was an issue retrieving data. Please try again later.");
+}
+        \end{lstlisting}
+    \end{mybox}
+
+\paragraph{Console logging} is another straightforward yet effective debugging tool.
+By placing \texttt{console.log()} statements throughout the code, you can track variable values and
+application flows.
+This practice is especially useful during the initial development of new components or when troubleshooting
+specific issues, as it provides real-time feedback on how the application is behaving.
+    \begin{mybox}
+        \begin{lstlisting}[language=TypeScript]
+console.log("Current state:", currentState);
+        \end{lstlisting}
+    \end{mybox}
+\paragraph{Visual error detection} is not a classic approach, but it can be useful to catch errors that are not
+syntax-related but arise from incorrect data or missing values.
+For example, in situations where a form field must not be empty, visual error reminders can alert users to issues before submission. %Further information can be found in appendix part \hyperlink{sec:14.0.4}{4}.
+\paragraph{Implementing data validation checks} is crucial for controlling datasets and preventing semantic errors.
+By validating inputs before processing them, you can catch potential issues early.
+This can involve checking for
+required fields, ensuring data types match
+expectations, and validating formats (e.g., url or phone number formats).
+That is why I used TypeScript for my template and would recommend using TypeScript overall.
+    \begin{mybox}
+        \begin{lstlisting}[language=TypeScript]
+function validateInput(data) {
+    if (!data.email.includes("@")) {
+        throw new Error("Invalid email format.");
+    }
+}
+        \end{lstlisting}
+    \end{mybox}
+

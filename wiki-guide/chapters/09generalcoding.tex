@@ -120,6 +120,19 @@ You can also use CSS variables to define more complex styles, such as gradients 
 Here, \texttt{--node-size} defines a consistent size that can be applied to elements like buttons, icons, or divs, while \texttt{--ourgradient} provides a linear gradient that can be used as a background for various components.
 
 
+\begin{mybox}
+    \begin{lstlisting}[language=XML]
+.icon {
+  width: var(--node-size);
+  height: var(--node-size);
+}
+
+.header {
+  background: var(--ourgradient);
+}
+    \end{lstlisting}
+\end{mybox}
+
 \section{JavaScript and TypeScript}\label{sec:javascript-and-typescript}
 
 While HTML and CSS define the structure and appearance of a webpage, \textbf{JavaScript\index{JavaScript}} adds functionality and interactivity.
