@@ -58,11 +58,7 @@ https://2025.igem.wiki/bohemiabio/plasmid
 Linie: https://2025.igem.wiki/ashesighana/description
 Scroll Animations: https://gitlab.igem.org/2025/ashesighana/-/tree/main/src/hooks?ref_type=heads
 
-
-Design:
-https://2025.igem.wiki/thessaloniki/software
-https://2025.igem.wiki/cuhk-shenzhen/software
-https://2025.igem.wiki/cjuh-jlu-china/software
+Cursor:
 https://2025.igem.wiki/tianjin/
 
 SVG Teile noch:
@@ -103,9 +99,8 @@ Social media:
 https://2025.igem.wiki/ucsc/human-practices#
 
 
-steckbriefe:
-https://2025.igem.wiki/ucsc/members
-https://2025.igem.wiki/bit-china/team
+little animations:
+https://2025.igem.wiki/ucsc/description
 
 
 Glossary:
