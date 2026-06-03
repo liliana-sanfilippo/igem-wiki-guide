@@ -11,6 +11,7 @@
 
 \title{Project documentation and wiki development for iGEM projects}
 \date{}
+\author{}
 
 \begin{document}
 \pagecolor{pgcolor}
@@ -62,6 +63,7 @@ While updating the guide, some already finished sections will be re-added and th
     \item html link targets
     \item Further Collaborations and Considerations with other subteams (e.g.\ Sponsoring and logos)
     \item Scrolling animations
+    \item Possibly education and HP documentation frameworks
     \item Appendix for first time teams with basic, but possibly unknown information and considerations
     % TODO Parsable with schema.org
     % TODO Wiki lead und organisation
@@ -72,7 +74,7 @@ As well as additional images outlining the instructions and examples given.
 
 \mainmatter
 \pagecolor{pgcolor}
-
+\part{Documentation}
 \chapter{Setting up the documentation and organisation}\label{ch:setting-up-the-documentation-and-organisation}
 Creating well-structured documentation\index{Documentation} is essential for effective communication and information retention.
 It is also very helpful for the next team at your university to have good internal documentation of contacts and
@@ -86,34 +88,41 @@ Please adapt the suggestions to your needs.
 \input{chapters/03documentation}
 \newpage
 %
-% DONE
-\chapter{Getting started with the wiki} \label{ch:started}
-\input{chapters/01gettingstarted}
-\newpage
-%
+\part{Wiki preparation and planning}
 \chapter{Design} \label{ch:design}
 \input{chapters/02design}
 % TODO Explizit anbringen dass Epunks das gesagt hat und die in Attributions dazu packen
 \newpage
 %
-\chapter{User-friendliness and usability - Pending}\label{ch:user-friendliness-and-usability}
-Upload pending. % TODO
+\chapter{User-friendliness and usability - Under construction}\label{ch:user-friendliness-and-usability}
+% TODO
 \input{chapters/04usability}
+\newpage
+%
+\chapter{Website and page structures} \label{ch:webstructure}
+\input{chapters/06webstructure}
+\newpage
+% DONE
+\chapter{Getting started with the wiki} \label{ch:started}
+\input{chapters/01gettingstarted}
 \newpage
 % DONE File structure
 \chapter{File structure} \label{ch:structure}
 \input{chapters/05structure}
 \newpage
 %
-\chapter{Website and page structures} \label{ch:webstructure}
-\input{chapters/06webstructure}
-\newpage
-%
 \chapter{Media  - Pending}\label{ch:media}
-Upload pending. % TODO 
+Upload pending. % TODO
 %\subfile{sections/media}
 \newpage
 %
+%
+\chapter{Wiki guide for team - Pending} \label{ch:guide}
+Upload pending. % TODO
+%\subfile{sections/guide}
+\newpage
+
+\part{Wiki development}
 \chapter{Coding prequisites} \label{ch:prequisites}
 \input{chapters/08prequisites}
 % TODO \section*{For Plain HTML Projects} from cod.tex nicht drin
@@ -128,7 +137,6 @@ Upload pending. % TODO
 \chapter{React} \label{ch:react}
 
 \input{chapters/10react}
-
 % HTML vs JSX
 % TODO \subfile{sections/bibtexparser}
 % TODO Creating efficient reusable components for the team to work with
@@ -144,25 +152,6 @@ Upload pending. % TODO
 %\subfile{sections/troubleshooting}
 \newpage
 %
-\chapter{Guide for team - Pending} \label{ch:guide}
-Upload pending. % TODO 
-%\subfile{sections/guide}
-\newpage
-%
-\chapter{The Wiki Freeze - Under construction}  \label{ch:freeze}
-%Upload pending. % TODO
-\input{chapters/14wikifreeze}
-\newpage
-%
-\chapter{The Wiki Thaw - Pending} \label{ch:thaw}
-Upload pending. % TODO 
-%\subfile{sections/thaw}
-\newpage
-%
-%\chapter{Code Snippets and React Components} \label{ch:appendix}
-%Upload pending. % TODO
-%\subfile{sections/appendix}
-%\newpage
 
 \chapter{Accessibility - Under Construction} \label{ch:accessibility}
 Upload pending. % TODO
@@ -176,10 +165,29 @@ Upload pending. % TODO
 Upload pending. % TODO
 \input{chapters/18othersystems}
 
+\chapter{The Wiki Freeze - Under construction}  \label{ch:freeze}
+%Upload pending. % TODO
+\input{chapters/14wikifreeze}
+\newpage
+%
+
+\part{Special prizes}
 \chapter{Best Wiki - Pending} \label{ch:bestwiki}
 %\subfile{sections/bestwiki}
 Upload pending. % TODO
 \newpage
+
+\part{After the Jamboree}
+\chapter{The Wiki Thaw - Pending} \label{ch:thaw}
+Upload pending. % TODO 
+%\subfile{sections/thaw}
+\newpage
+% Todo turning over the documentation to the new team
+%
+%\chapter{Code Snippets and React Components} \label{ch:appendix}
+%Upload pending. % TODO
+%\subfile{sections/appendix}
+%\newpage
 
 \backmatter
 \pagenumbering{Roman}
