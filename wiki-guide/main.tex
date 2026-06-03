@@ -8,9 +8,14 @@
 \usepackage{mycolors}
 \usepackage{definitions}
 \usepackage{commands}
+
+\title{Project documentation and wiki development for iGEM projects}
+\date{}
+
 \begin{document}
 \pagecolor{pgcolor}
 \frontmatter
+\maketitle
 
 \tableofcontents
 \newpage
@@ -23,7 +28,9 @@
 \chapter{Introduction} \label{ch:introduction}
 % TODO Science communication - Bigen dazu dass das für später wichtog ist weil man das im Job können muss um
 % verstanden zu werden, aber auch um Grants zu bekommen etc
-This guide is a comprehensive introduction to creating and managing an iGEM wiki from the absolute basics to the technical documentation of a modern React-based template wiki designed specifically for iGEM teams. \\ \newline
+This guide is a comprehensive introduction to creating and managing an iGEM wiki from the absolute basics to the
+technical documentation of a modern React-based template wiki designed specifically for iGEM teams and to both
+seasonal project documentation for the competition as well as how to document for future teams from your university.  \\ \newline
 It is organized into various sections that cover specific aspects of project management, collaboration, design, documentation, and technical implementation. \\ \newline
 Throughout this guide, I will assume a successful activation of the team Wiki but will walk the reader through the fundamental aspects of setting up the Wiki, as well as providing a general overview of project documentation.
 I will emphasize key elements that are essential for the Wiki team, such as effective documentation, clarity, and organizational strategies.
@@ -55,6 +62,7 @@ While updating the guide, some already finished sections will be re-added and th
     \item html link targets
     \item Further Collaborations and Considerations with other subteams (e.g.\ Sponsoring and logos)
     \item Scrolling animations
+    \item Appendix for first time teams with basic, but possibly unknown information and considerations
     % TODO Parsable with schema.org
     % TODO Wiki lead und organisation
     % https://stackoverflow.com/questions/16230959/what-does-top-in-the-hyperlink-target-do
@@ -64,18 +72,28 @@ As well as additional images outlining the instructions and examples given.
 
 \mainmatter
 \pagecolor{pgcolor}
+
+\chapter{Setting up the documentation and organisation}\label{ch:setting-up-the-documentation-and-organisation}
+Creating well-structured documentation\index{Documentation} is essential for effective communication and information retention.
+It is also very helpful for the next team at your university to have good internal documentation of contacts and
+resources.
+
+We will start with the internal documentation and continue with the project documentation for the competition.
+Please adapt the suggestions to your needs.
+% DONE (can be expanded)
+%\chapter{Documentation} \label{ch:docu}
+\input{chapters/001internalorga}
+\input{chapters/03documentation}
+\newpage
+%
 % DONE
-\chapter{Getting started} \label{ch:started}
+\chapter{Getting started with the wiki} \label{ch:started}
 \input{chapters/01gettingstarted}
 \newpage
 %
 \chapter{Design} \label{ch:design}
 \input{chapters/02design}
 % TODO Explizit anbringen dass Epunks das gesagt hat und die in Attributions dazu packen
-\newpage
-% DONE (can be expanded)
-\chapter{Documentation} \label{ch:docu}
-\input{chapters/03documentation}
 \newpage
 %
 \chapter{User-friendliness and usability - Pending}\label{ch:user-friendliness-and-usability}
