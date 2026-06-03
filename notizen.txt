@@ -10,9 +10,6 @@ https://2025.igem.wiki/ucas-china/engineering
 https://2025.igem.wiki/bnuzh-china/engineering
 
 
-Foootbar:
-https://2025.igem.wiki/szu-china/design
-
 3D model:
 https://2023.igem.wiki/sdu-denmark/model
 https://2024.igem.wiki/Leiden/model (siehe model ganz untern)
@@ -36,6 +33,7 @@ https://2025.igem.wiki/gems-taiwan/engineering
 https://2025.igem.wiki/bnuzh-china/engineering
 
 Illustration style:
+--
 
 Award styles:
 https://2024.igem.wiki/freiburg/
@@ -53,7 +51,7 @@ https://2025.igem.wiki/bnuzh-china/human-practices
 https://2025.igem.wiki/cuhk-shenzhen/human-practices
 
 Navbar:
-https://2024.igem.wiki/marburg/description#
+
 https://2025.igem.wiki/vilnius-lithuania/software/
 https://2025.igem.wiki/nu-kazakhstan/stakeholders
 https://2025.igem.wiki/ucas-china/engineering
@@ -223,7 +221,6 @@ Gamification:
 
 
 Judging Page:
-https://2025.igem.wiki/groningen/medal-criteria
 https://2025.igem.wiki/uzurich/medal-criteria
 
 
@@ -253,6 +250,9 @@ https://2025.igem.wiki/uflorida/
 
 % Schlechtes beispiel social qr codes: https://2025.igem.wiki/hkust-gz/
 
+General style:
+https://2025.igem.wiki/ubc-vancouver/judging/medal-criteria/
+https://2024.igem.wiki/munich/medal-criteria/
 
 TABS:
 https://2025.igem.wiki/ucsc/software#readme
