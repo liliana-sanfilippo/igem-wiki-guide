@@ -94,9 +94,6 @@ HP Darstellung:
 https://2022.igem.wiki/wageningen-ur/human-practices#government
 Feedback: https://2025.igem.wiki/city-of-london-uk/human-practices
 
-Timeline Design: https://2025.igem.wiki/city-of-london-uk/human-practices
-Auch: https://2025.igem.wiki/dtu-denmark/human-practices
-(Besodners wie die einzelnen Beiträge dargestellt sind mit Tags und so)
 
 Desc Aufbau:
 https://2022.igem.wiki/wageningen-ur/description
@@ -255,3 +252,7 @@ https://2025.igem.wiki/uflorida/
 
 
 % Schlechtes beispiel social qr codes: https://2025.igem.wiki/hkust-gz/
+
+
+TABS:
+https://2025.igem.wiki/ucsc/software#readme
