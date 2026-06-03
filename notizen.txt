@@ -2,12 +2,8 @@ Clickable MindMap:
 https://2023.igem.wiki/sdu-denmark/experiments
 https://2024.igem.wiki/freiburg/human-practices/
 
-Sidebar:
-https://2025.igem.wiki/boston-boslab/team
-https://2025.igem.wiki/hopkins/human-practices
-https://2025.igem.wiki/vilnius-lithuania/engineering/
-https://2025.igem.wiki/ucas-china/engineering
-https://2025.igem.wiki/bnuzh-china/engineering
+HP Framework:
+https://2025.igem.wiki/ucas-china/human-practices#hpoverview
 
 
 3D model:
@@ -50,12 +46,6 @@ https://2025.igem.wiki/unimuenster/human-practices
 https://2025.igem.wiki/bnuzh-china/human-practices
 https://2025.igem.wiki/cuhk-shenzhen/human-practices
 
-Navbar:
-
-https://2025.igem.wiki/vilnius-lithuania/software/
-https://2025.igem.wiki/nu-kazakhstan/stakeholders
-https://2025.igem.wiki/ucas-china/engineering
-https://2025.igem.wiki/groningen/software
 
 Progress Bar:
 https://2024.igem.wiki/Leiden/human-practices
@@ -83,7 +73,7 @@ https://2025.igem.wiki/ashesighana/education
 https://gitlab.igem.org/2025/ashesighana/-/blob/main/src/contents/education.tsx?ref_type=heads
 
 Statistik:
-https://2025.igem.wiki/ashesighana/education ganz oben
+https://2025.igem.wiki/ashesighana/education (ganz oben)
 
 Hintergrund:
 https://2022.igem.wiki/aachen/engineering/
@@ -195,6 +185,7 @@ https://2025.igem.wiki/bnuzh-china/implementation#sub4-1
 Gallery:
 https://2025.igem.wiki/gems-taiwan/education#section3
 https://2025.igem.wiki/bnuzh-china/implementation#sub4-1
+https://2025.igem.wiki/bnuzh-china/education
 
 
 HP Analysis:
@@ -253,6 +244,7 @@ https://2025.igem.wiki/uflorida/
 General style:
 https://2025.igem.wiki/ubc-vancouver/judging/medal-criteria/
 https://2024.igem.wiki/munich/medal-criteria/
+https://2025.igem.wiki/nu-kazakhstan/
 
 TABS:
 https://2025.igem.wiki/ucsc/software#readme
