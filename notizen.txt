@@ -3,7 +3,7 @@ https://2025.igem.wiki/ubc-vancouver/
 
 HP Framework:
 https://2025.igem.wiki/ucas-china/human-practices#hpoverview
-
+https://2024.igem.wiki/utokyo/human-practices
 
 3D model:
 https://2023.igem.wiki/sdu-denmark/model
@@ -103,29 +103,11 @@ little animations:
 https://2025.igem.wiki/ucsc/description
 
 
-Glossary:
-https://2025.igem.wiki/ucsc/dry-lab-glossary
-https://2025.igem.wiki/ucsc/wet-lab-glossary
-
-
-Part collections:
-https://2025.igem.wiki/ucsc/contribution
-
-
 Lists:
 https://2025.igem.wiki/ucsc/next-steps
 https://2025.igem.wiki/bit-china/model
 https://2025.igem.wiki/cjuh-jlu-china/software
-
-
-Tabs:
-https://2025.igem.wiki/gems-taiwan/human-practices#overview
-https://2025.igem.wiki/gems-taiwan/human-practices#experts
-https://2025.igem.wiki/gems-taiwan/model
-https://2025.igem.wiki/gems-taiwan/engineering
-https://2025.igem.wiki/bnuzh-china/implementation#sub4-1
-
-
+https://2024.igem.wiki/freiburg/achievements/
 
 
 HP Analysis:
@@ -146,6 +128,8 @@ https://2025.igem.wiki/ucalgary/experiments
 Values:
 https://2025.igem.wiki/ucalgary/entrepreneurship
 
+Wiki design:
+https://2024.igem.wiki/utokyo/wiki-design
 
 Gamification:
 (ganz untern) https://2025.igem.wiki/bit-china/software
