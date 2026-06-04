@@ -19,7 +19,7 @@ jobs:
           root_file: main.tex
           latexmk_use_xelatex: true
           working_directory: wiki-guide
-          args: -use-make
+          args: -xelatex -interaction=nonstopmode -file-line-error -shell-escape -use-make
 
       - name: Debug glossary files
         run: |
