@@ -1,9 +1,10 @@
 \documentclass[a4paper, 11pt, twoside]{book}
 \usepackage{sty/packages}
 
-\loadglsentries{team_gloss}
+\newglossary[tlg]{team}{tlo}{tls}{Teams}
+\makeglossaries
+\input{team_gloss}
 
-\glsadd{wageningen22}
 
 \makeatletter
 \def\input@path{{sty/}}
