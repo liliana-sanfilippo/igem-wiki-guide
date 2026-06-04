@@ -21,6 +21,11 @@ jobs:
           working_directory: wiki-guide
           args: -use-make
 
+      - name: Debug glossary files
+        run: |
+          ls -la wiki-guide
+          find wiki-guide -name "*.tlo" -o -name "*.tls" -o -name "*.tlg"
+
       - name: Copy PDF to docs
         run: |
           mkdir -p docs
