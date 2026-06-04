@@ -4,7 +4,6 @@
 \newglossary{team}{tlo}{tls}{Team}
 \makeglossaries
 \input{team_gloss}
-\glsadd{wageningen22}
 
 
 \makeatletter
@@ -222,8 +221,7 @@ Upload pending. % TODO
 Test:
 \typeout{TYPE=\glsentrytype{wageningen22}}
 \addcontentsline{toc}{section}{Teams mentioned}
-\glsaddall[types={team}]
-\printglossary[type=team, title=Teams]
+\printglossaries
 
 \section{Associated software} \label{ch:associated-software}
 \input{other/associated-software}
