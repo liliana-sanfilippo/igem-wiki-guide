@@ -30,6 +30,8 @@
 
 \newcommand{\chapterdate}{}
 
-\newcommand{\team}[1]{\gls{#1} (\glssymbol{#1})}
+\newcommand{\team}[1]{%
+    \gls{#1} (\protect\url{\glsentryuseri{#1}})
+}
 
 \endinput
