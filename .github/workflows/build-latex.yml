@@ -14,25 +14,17 @@ jobs:
           persist-credentials: true
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: First XeLaTeX pass
-        working-directory: wiki-guide
-        run: xelatex -interaction=nonstopmode main.tex
+      - uses: xu-cheng/latex-action@v2
+        with:
+          root_file: main.tex
+          latexmk_use_xelatex: true
+          working_directory: wiki-guide
+          args: -use-make
 
       - name: Debug glossary files
-        working-directory: wiki-guide
         run: |
-          ls -lah
-          ls -lah *.tl* *.gl* *.ac* || true
-
-      - name: Build glossaries
-        working-directory: wiki-guide
-        run: makeglossaries main
-
-      - name: Final XeLaTeX pass
-        working-directory: wiki-guide
-        run: |
-          xelatex -interaction=nonstopmode main.tex
-          xelatex -interaction=nonstopmode main.tex
+          ls -la wiki-guide
+          find wiki-guide -name "*.tlo" -o -name "*.tls" -o -name "*.tlg"
 
       - name: Copy PDF to docs
         run: |
