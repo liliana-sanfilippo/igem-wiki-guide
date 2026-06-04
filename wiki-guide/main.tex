@@ -1,6 +1,7 @@
 \documentclass[a4paper, 11pt, twoside]{book}
 \usepackage{sty/packages}
 
+\usepackage[automake]{glossaries}
 \newglossary[tlg]{team}{tls}{tlo}{Team}
 \makeglossaries
 \loadglsentries{team_gloss}
@@ -77,6 +78,8 @@ While updating the guide, some already finished sections will be re-added and th
     % https://stackoverflow.com/questions/16230959/what-does-top-in-the-hyperlink-target-do
 \end{itemize}
 As well as additional images outlining the instructions and examples given.
+
+Test: \gls{vorlage}
 \newpage
 
 
@@ -220,6 +223,10 @@ Upload pending. % TODO
 \chapter{Sources}
 \addcontentsline{toc}{section}{Teams mentioned}
 \printglossary[type=team, title=Teams]
+
+---
+
+\printglossaries
 
 \section{Associated software} \label{ch:associated-software}
 \input{other/associated-software}
