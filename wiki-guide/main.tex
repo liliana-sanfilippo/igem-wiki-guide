@@ -1,9 +1,9 @@
 \documentclass[a4paper, 11pt, twoside]{book}
 \usepackage{sty/packages}
 
-\newglossary{team}{tlo}{tls}{Team}
+\newglossary[tlg]{team}{tls}{tlo}{Team}
 \makeglossaries
-\input{team_gloss}
+\loadglsentries{team_gloss}
 
 
 \makeatletter
@@ -218,10 +218,8 @@ Upload pending. % TODO
 \input{other/design}
 
 \chapter{Sources}
-Test:
-\typeout{TYPE=\glsentrytype{wageningen22}}
 \addcontentsline{toc}{section}{Teams mentioned}
-\printglossaries
+\printglossary[type=team, title=Teams]
 
 \section{Associated software} \label{ch:associated-software}
 \input{other/associated-software}
