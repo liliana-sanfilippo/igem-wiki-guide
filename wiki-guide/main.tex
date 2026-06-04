@@ -1,8 +1,7 @@
 \documentclass[a4paper, 11pt, twoside]{book}
 \usepackage{sty/packages}
 
-\loadglsentries{team_gloss.tex}
-\glsaddall[types={team}]
+\loadglsentries{team_gloss}
 
 \makeatletter
 \def\input@path{{sty/}}
@@ -216,7 +215,10 @@ Upload pending. % TODO
 \input{other/design}
 
 \chapter{Sources}
+Test:
+\typeout{TYPE=\glsentrytype{wageningen22}}
 \addcontentsline{toc}{section}{Teams mentioned}
+\glsaddall[types={team}]
 \printglossary[type=team, title=Teams]
 
 \section{Associated software} \label{ch:associated-software}
