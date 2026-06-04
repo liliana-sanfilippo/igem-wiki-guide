@@ -1,6 +1,8 @@
 \documentclass[a4paper, 11pt, twoside]{book}
 \usepackage{sty/packages}
 
+\loadglsentries{team_gloss}
+
 \makeatletter
 \def\input@path{{sty/}}
 \makeatother
@@ -73,6 +75,8 @@ While updating the guide, some already finished sections will be re-added and th
 \end{itemize}
 As well as additional images outlining the instructions and examples given.
 \newpage
+
+
 
 \mainmatter
 \pagecolor{pgcolor}
@@ -210,11 +214,14 @@ Upload pending. % TODO
 \chapter{Notable Design Examples}
 \input{other/design}
 
+\chapter{Sources}
+\addcontentsline{toc}{section}{Teams mentioned}
+\printglossary[type=defi, title=Definitionen]
 
-\chapter{Associated software} \label{ch:associated-software}
+\section{Associated software} \label{ch:associated-software}
 \input{other/associated-software}
 
-\chapter{Attributions} \label{ch:attributions}
+\section{Attributions} \label{ch:attributions}
 \input{other/attributions}
 %
 %\chapter{HTML Cheat Sheet} \label{ch:htmlcheatsheet}
