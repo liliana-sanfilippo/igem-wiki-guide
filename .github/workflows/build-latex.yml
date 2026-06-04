@@ -18,7 +18,7 @@ jobs:
         with:
           root_file: main.tex
           latexmk_use_xelatex: true
-          working_directory: wiki-guide#
+          working_directory: wiki-guide
           args: -use-make
 
       - name: Copy PDF to docs
