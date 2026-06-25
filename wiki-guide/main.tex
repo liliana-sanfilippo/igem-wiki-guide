@@ -1,3 +1,5 @@
+%! suppress = Makeatletter
+%! suppress = DiscouragedUseOfDef
 \documentclass[a4paper, 11pt, twoside]{book}
 \usepackage{sty/packages}
 
@@ -33,11 +35,11 @@
 
 \renewcommand{\chapterdate}{30.06.2025}
 \chapter{Introduction} \label{ch:introduction}
-% TODO Science communication - Bigen dazu dass das für später wichtog ist weil man das im Job können muss um
+% TODO Science communication - Bigen dazu dass das für später wichtig ist weil man das im Job können muss um
 % verstanden zu werden, aber auch um Grants zu bekommen etc
 This guide is a comprehensive introduction to creating and managing an iGEM wiki from the absolute basics to the
 technical documentation of a modern React-based template wiki designed specifically for iGEM teams and to both
-seasonal project documentation for the competition as well as how to document for future teams from your university.  \\ \newline
+seasonal project documentation for the competition and how to document for future teams from your university.  \\ \newline
 It is organized into various sections that cover specific aspects of project management, collaboration, design, documentation, and technical implementation. \\ \newline
 Throughout this guide, I will assume a successful activation of the team Wiki but will walk the reader through the fundamental aspects of setting up the Wiki, as well as providing a general overview of project documentation.
 I will emphasize key elements that are essential for the Wiki team, such as effective documentation, clarity, and organizational strategies.
@@ -86,7 +88,9 @@ As well as additional images outlining the instructions and examples given.
 \mainmatter
 \pagecolor{pgcolor}
 
-\part{Documentation}
+\part{Documentation}\label{part:documentation}
+
+
 \chapter{Setting up the documentation and organisation}\label{ch:setting-up-the-documentation-and-organisation}
 Creating well-structured documentation\index{Documentation} is essential for effective communication and information retention.
 It is also very helpful for the next team at your university to have good internal documentation of contacts and
@@ -137,7 +141,9 @@ Upload pending. % TODO
 %\subfile{sections/guide}
 \newpage
 
-\part{Wiki development}
+\part{Wiki development}\label{part:wiki-development}
+
+
 \chapter{Coding prequisites} \label{ch:prequisites}
 \input{chapters/08prequisites}
 % TODO \section*{For Plain HTML Projects} from cod.tex nicht drin
@@ -194,7 +200,9 @@ Upload pending. % TODO
 Upload pending. % TODO
 \newpage
 
-\part{After the Jamboree}
+\part{After the Jamboree}\label{part:after-the-jamboree}
+
+
 \chapter{The Wiki Thaw - Pending} \label{ch:thaw}
 Upload pending. % TODO 
 %\subfile{sections/thaw}
@@ -206,7 +214,7 @@ Upload pending. % TODO
 %\subfile{sections/appendix}
 %\newpage
 
-\part{Appendix}
+\part{Appendix}\label{part:appendix}
 \backmatter
 \pagenumbering{Roman}
 \pagecolor{pgcolor}
@@ -214,19 +222,19 @@ Upload pending. % TODO
 \chapter{Documentation framework examples}\label{ch:documentation-framework-examples}
 \input{other/frameworks}
 
-\chapter{Component Examples}
+\chapter{Component Examples}\label{ch:component-examples}
 \input{other/components}
 
-\chapter{Notable Design Examples}
+\chapter{Notable Design Examples}\label{ch:notable-design-examples}
 \input{other/design}
 \newpage
-\chapter{Sources}
+\chapter{Sources}\label{ch:sources}
 \printglossary[type=team]
 \newpage
-\section{Associated software} \label{ch:associated-software}
+\section{Associated software} \label{sec:associated-software}
 \input{other/associated-software}
 \newpage
-\section{Attributions} \label{ch:attributions}
+\section{Attributions} \label{sec:attributions}
 \input{other/attributions}
 %
 %\chapter{HTML Cheat Sheet} \label{ch:htmlcheatsheet}

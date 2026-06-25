@@ -31,10 +31,11 @@ If you are in a hurry, here are some key concepts to get started:
     \item \textbf{Nesting of Tags}: HTML\index{HTML} tags can be nested within one another, meaning that one tag can contain another.
     For instance, \texttt{<div><p>Your text here</p></div>}.
 
-    \item \textbf{Semantic HTML\index{HTML}}: Using appropriate tags for their intended purpose (like \texttt{<header>}, \texttt{<footer>}, \texttt{<article>}, etc.) improves accessibility and SEO.
+    \item \textbf{Semantic HTML\index{HTML}}: Using appropriate tags for their intended purpose (like \texttt{<header>}, \texttt{<footer>}, \texttt{<article>}, etc.) improves accessibility and SEO\@.
 
     \item \textbf{Attributes}: HTML\index{HTML} elements can have attributes that provide additional information about them.
-    For example, the \texttt{<a>} tag uses the \texttt{href} attribute to specify the link's destination: \texttt{<a href="https://example.com">Link</a>}.
+    For example, the \texttt{<a>} tag uses the \texttt{href} attribute to specify the link's destination:
+    \verb|<a href="https://example.com">Link</a>|.
 \end{itemize}
 
 
@@ -46,7 +47,7 @@ Even a basic understanding of CSS allows team members to make quick design adjus
 
 \subsection*{Difference Between CSS and SCSS\index{SCSS}}
 
-\textbf{SCSS\index{SCSS} (Sassy CSS\index{CSS})} is a syntax of SASS (Syntactically Awesome Style Sheets), which extends CSS with features like variables, nested rules, and mixins.
+\textbf{SCSS\index{SCSS} (Sassy CSS)}\index{CSS} is a syntax of SASS (Syntactically Awesome Style Sheets), which extends CSS with features like variables, nested rules, and mixins.
 While CSS allows for styling web pages, SCSS\index{SCSS} offers more advanced capabilities for organizing and writing styles, making it easier to manage complex stylesheets.
 
 \subsection*{How HTML\index{HTML} and CSS Work Together}
@@ -75,61 +76,55 @@ Basic concepts for a quick start:
 \end{itemize}
 
 \subsection*{Personal Variables}
-Setting personal colors and variables in CSS is a good way to ensure design consistency, enhance maintainability, and make your styles easier to modify across an entire project. You can centralize design elements like colors, sizes, and gradients, making it simpler to update and reuse them throughout your code.
+Setting personal colors and variables in CSS is a good way to ensure design consistency, enhance maintainability, and make your styles easier to modify across an entire project.
+You can centralize design elements like colors, sizes, and gradients, making it simpler to update and reuse them throughout your code.
 \\ \newline
-In CSS, custom properties are defined using the \texttt{- -} prefix. For example, you might want to set up a collection of color variables that represent your project's brand or theme. These could include primary and secondary colors, as well as different shades for various purposes.
-\begin{mybox}
+In CSS, custom properties are defined using the \texttt{- -} prefix.
+For example, you might want to set up a collection of color variables that represent your project's brand or theme.
+These could include primary and secondary colors, as well as different shades for various purposes.
+\begin{myxmlbox}
+    :root {
+        --text-primary: #850F78;
+        --mediumpurple: #bc15aa;
+        --lightpurple: #B85BD1;
+        --very-light-purple: #ce9fc9;
+    }
+\end{myxmlbox}
+In this example, different shades of purple are defined as variables.
+The \texttt{:root} selector ensures that these variables are globally available throughout your CSS. Now, instead of repeating color codes in different parts of your stylesheet, you can reference these variables:
+\begin{myxmlbox}
+    h1 {
+        color: var(--text-primary);
+    }
 
-    \begin{lstlisting}[language=XML]
-:root {
-  --text-primary: #850F78;
-  --mediumpurple: #bc15aa;
-  --lightpurple: #B85BD1;
-  --very-light-purple: #ce9fc9;
-}
-    \end{lstlisting}
-\end{mybox}
-In this example, different shades of purple are defined as variables. The \texttt{:root} selector ensures that these variables are globally available throughout your CSS. Now, instead of repeating color codes in different parts of your stylesheet, you can reference these variables:
-\begin{mybox}
+    .button {
+        background-color: var(--mediumpurple);
+    }
 
-    \begin{lstlisting}[language=XML]
-h1 {
-  color: var(--text-primary);
-}
-
-.button {
-  background-color: var(--mediumpurple);
-}
-
-.highlight {
-  border-color: var(--lightpurple);
-}
-    \end{lstlisting}
-\end{mybox}
+    .highlight {
+        border-color: var(--lightpurple);
+    }
+\end{myxmlbox}
 You can also use CSS variables to define more complex styles, such as gradients or sizes.
-\begin{mybox}
-    \begin{lstlisting}[language=XML]
-:root {
-  --node-size: 60px;
-  --ourgradient: linear-gradient(90deg, rgba(147,94,184,1) 0%, rgba(160,167,243,1) 100%);
-}
-    \end{lstlisting}
-\end{mybox}
+\begin{myxmlbox}
+    :root {
+        --node-size: 60px;
+        --ourgradient: linear-gradient(90deg, rgba(147,94,184,1) 0%, rgba(160,167,243,1) 100%);
+    }
+\end{myxmlbox}
 Here, \texttt{--node-size} defines a consistent size that can be applied to elements like buttons, icons, or divs, while \texttt{--ourgradient} provides a linear gradient that can be used as a background for various components.
 
 
-\begin{mybox}
-    \begin{lstlisting}[language=XML]
-.icon {
-  width: var(--node-size);
-  height: var(--node-size);
-}
+\begin{myxmlbox}
+    .icon {
+        width: var(--node-size);
+        height: var(--node-size);
+    }
 
-.header {
-  background: var(--ourgradient);
-}
-    \end{lstlisting}
-\end{mybox}
+    .header {
+        background: var(--ourgradient);
+    }
+\end{myxmlbox}
 
 
 \section{JavaScript and TypeScript}\label{sec:javascript-and-typescript}

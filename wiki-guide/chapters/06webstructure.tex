@@ -107,21 +107,19 @@ Items such as \textit{Proof of Concept} or \textit{Design} can be standalone pag
 The navigation bar is one of the most crucial elements of your wiki, guiding users through the content and making sure they can quickly find what they need.
 Here are some key considerations to ensure your navigation bar is both functional and user-friendly:
 \begin{itemize}
-    \item \textbf{Linking Sections, Not Just Pages:}
+    \item \textbf{Linking sections, not just pages:}
     It’s important to know that your navigation bar doesn’t have to link only to full pages.
     You can also link directly to specific sections within a page.
     This is especially useful if you have long pages with different subtopics.
     For example, in a dropdown menu for ``Project'', you could link to the ``Design'' section of the main project page without needing to create a separate page for it.
     This saves time and avoids unnecessary fragmentation of content while ensuring that all important sections are easily accessible.
-    \begin{mybox}
-        \begin{lstlisting}[language=TypeScript,label={lst:navlist}]
-{
-name: "Project Description",
-title: "Project Description",
-path: "/description?scrollTo=Abstract"
-}
-        \end{lstlisting}
-    \end{mybox}
+    \begin{mytsbox}{lst:navlist}
+    {
+        name: "Project Description",
+        title: "Project Description",
+        path: "/description?scrollTo=Abstract"
+    }
+    \end{mytsbox}
     %See full code example in the appendix on page \ \pageref{lis:pagests}.
     \item \textbf{Creating a ‘Highlights’ Dropdown:}
     A smart way to organize your navigation bar is by adding a Highlights dropdown, which can give users a quick tour of the key content.
@@ -204,39 +202,39 @@ Also consider:
     This prevents users from losing their place on your wiki while exploring additional content.
 \end{itemize}
 By implementing these features in your navigation bar, you'll create a smoother and more intuitive browsing experience that can help judges and other users easily navigate your content and quickly access essential information.
-\subsection{Navbar examples}
+\subsection{Navbar examples}\label{subsec:navbar-examples}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{chapters/images/nav_marburg_24}
-    \caption{Navbar by \team{marburg24}.}
+    \caption{Navbar by \team{marburg24}.}\label{fig:figure11}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{chapters/images/nav_vilnius_25}
-    \caption{Navbar by \team{vilnius25}.}
+    \caption{Navbar by \team{vilnius25}.}\label{fig:figure10}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{chapters/images/nav_kazakhstan_25}
-    \caption{Navbar by \team{kazakhstan25}.}
+    \caption{Navbar by \team{kazakhstan25}.}\label{fig:figure9}
 \end{figure}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{chapters/images/nav_ucas_25}
-    \caption{Navbar by \team{ucas25}.}
+    \caption{Navbar by \team{ucas25}.}\label{fig:figure8}
 \end{figure}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{chapters/images/nav_groningen_25}
-    \caption{Navbar by \team{groningen25}.}
+    \caption{Navbar by \team{groningen25}.}\label{fig:figure7}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{chapters/images/nav_mcgill_23}
-    \caption{Navbar by \team{mcgill23}.}
+    \caption{Navbar by \team{mcgill23}.}\label{fig:figure6}
 \end{figure}
 
 
@@ -266,8 +264,9 @@ Possible additions include:
     \begin{itemize}
         \item \textbf{Email Address Security:}
         If you choose to display email addresses, be mindful of security concerns.
-        Simply listing an email address can expose it to spam bots.
-        To mitigate this, consider using a contact form or disguise the email (e.g., using ``teamname [at] domain [dot] com'').
+        Simply listing an email address can expose it to spambots.
+        To mitigate this, consider using a contact form or disguise the email (e.g., using ``team name [at] domain [dot]
+        com'').
     \end{itemize}
 
 
@@ -282,7 +281,7 @@ Possible additions include:
 \end{itemize}
 By thoughtfully incorporating these elements into the footer, you can create a functional and informative section that enhances user experience while fulfilling the necessary requirements set forth by iGEM\@.
 
-\subsection{Footer examples}
+\subsection{Footer examples}\label{subsec:footer-examples}
 \begin{itemize}
     \item \url{https://2025.igem.wiki/szu-china/design}
 \end{itemize}
@@ -326,7 +325,7 @@ By thoughtfully designing page headers with these considerations in mind, you ca
 \section{Additional Elements}\label{sec:additional-elements}
 Integrating extra elements into your iGEM wiki can significantly enhance navigation and user engagement.
 These features improve the overall experience by making content more accessible and encouraging exploration, creating a more inviting and informative environment for visitors.
-\subsection{Sidebar Navigation}
+\subsection{Sidebar Navigation}\label{subsec:sidebar-navigation}
 A sidebar can significantly improve navigation, especially for long pages.
 It should include only H1 and H2 headings, allowing users to quickly jump to different sections.
 Incorporating a highlight feature can indicate the current section the user is viewing.
@@ -348,7 +347,7 @@ Incorporating a highlight feature can indicate the current section the user is v
         \includegraphics[height=10cm]{chapters/images/sb_bielefeld_25}
         \caption{By  \team{bielefeld25}}
     \end{subfigure}
-    \caption{Sidebar designs by different teams.}
+    \caption{Sidebar designs by different teams.}\label{fig:figure5}
 \end{figure}
 
 \begin{figure}[H]
@@ -361,15 +360,15 @@ Incorporating a highlight feature can indicate the current section the user is v
     %\begin{subfigure}[t]{0.7\linewidth}
     %    \includegraphics[width=0.2\textwidth]{chapters/images/mitochondria-black-lines}
     %\end{subfigure}
-    \caption{Sidebar variation}
+    \caption{Sidebar variation}\label{fig:figure4}
 \end{figure}
 
 
-\subsection{Cards} Consider adding cards at specific positions, such as the end of each page, to engage users and encourage them to explore related content.
+\subsection{Cards}\label{subsec:cards} Consider adding cards at specific positions, such as the end of each page, to engage users and encourage them to explore related content.
 These can highlight important links or additional resources.
 % TODO Card row https://2025.igem.wiki/bielefeld-cebitec/human-practices
 % https://2025.igem.wiki/utokyo/
-\subsection{"Back to Top" Button}
+\subsection{"Back to Top" Button}\label{subsec:"back-to-top"-button}
 This button can be placed at the end of the page or within the sidebar, providing an easy way for users to return to the top without scrolling manually. % TODO add pictures of different buttons
 \begin{figure}[H]
     \centering
@@ -388,12 +387,12 @@ This button can be placed at the end of the page or within the sidebar, providin
         \includegraphics[width=\textwidth]{chapters/images/btt_sdu_24}
         \caption{By \team{sdu24}}
     \end{subfigure}
-    \hfill
+    \hfill\label{fig:figure3}
 \end{figure}
 %
 % https://2025.igem.wiki/aachen/gsmm#growth0
 
-\subsection{Scrolling Progress Bar}
+\subsection{Scrolling Progress Bar}\label{subsec:scrolling-progress-bar}
 A visual scrolling progress bar can indicate how far the user has scrolled down the page, giving them a sense of navigation and encouraging continued reading.
 % https://2025.igem.wiki/ashesighana/description
 % TODO Buttons: pb_aachen_25 & pb_munich_25
@@ -410,7 +409,7 @@ A visual scrolling progress bar can indicate how far the user has scrolled down 
         \caption{By \team{bielefeld25}}
     \end{subfigure}
     \hfill
-    \caption{Progress bar designs by different teams.}
+    \caption{Progress bar designs by different teams.}\label{fig:figure2}
 \end{figure}
 
 \begin{figure}[H]
@@ -426,12 +425,12 @@ A visual scrolling progress bar can indicate how far the user has scrolled down 
         \caption{By \team{munich25}}
     \end{subfigure}
     \hfill
-    \caption{Progress Bars and Back To Top Buttons combined.}
+    \caption{Progress Bars and Back To Top Buttons combined.}\label{fig:figure}
 \end{figure}
 
-\subsection{Search Functionality}
+\subsection{Search Functionality}\label{subsec:search-functionality}
 Incorporating a search bar allows users to quickly find specific content or sections within the wiki, enhancing usability.
-\subsection{Suggested Reading}
+\subsection{Suggested Reading}\label{subsec:suggested-reading}
 Including a section for related links or suggested reading at the end of pages can guide users to additional relevant content, e.g. \ guiding the reader from design to engineering.
 
 

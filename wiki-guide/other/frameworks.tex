@@ -12,7 +12,7 @@
     \includegraphics[width=0.6\linewidth]{chapters/images/timelineBielefeldOpen}
 \end{center}
 \subsubsection*{The structure behind it}
-\begin{lstlisting}[language=TypeScript]
+\begin{mytsbox}
 export interface TimelineDatenpunkt {
   title?: string; /* Prof. , Dr., ... */
   vorname: string;
@@ -44,7 +44,7 @@ export interface TimelineDatenpunkt {
   text?: string | Array<string> | Array<React.ReactNode> |React.ReactNode ; /* any extra text */
   experton?: string;
 }
-\end{lstlisting}
+\end{mytsbox}
 
 The timeline component rendered visual error messages if aspects were missing.
 This approach led to the team only having to fill out the data sheet and getting visual feedback for missing info.

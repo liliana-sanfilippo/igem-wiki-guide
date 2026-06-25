@@ -9,17 +9,17 @@
 %\usechemmodule{all}
 
 
-\pgfplotsset{width=10cm,compat=1.9}			
+\pgfplotsset{width=10cm,compat=1.9}
 
 
 \pgfplotsset{compat=1.7}
 
-\setcounter{tocdepth}{1}		
+\setcounter{tocdepth}{1}
 
-\numberwithin{equation}{section}			
+\numberwithin{equation}{section}
 
 %\setlength{\columnseprule}{0.4pt}		
-\setlength{\columnsep}{2em}				
+\setlength{\columnsep}{2em}
 
 \setlength{\parskip}{0.5em}
 
@@ -36,4 +36,29 @@
 
 \newcommand\tabrotate[1]{\begin{turn}{90}\rlap{#1}\end{turn}}
 
+
+\usepackage{xparse}
+
+
+\NewDocumentEnvironment{mytsbox}{m}
+{%
+\begin{mybox}
+    \begin{lstlisting}[language=TypeScript,label={#1}]
+}
+{%
+    \end{lstlisting}
+\end{mybox}
+    }
+
+    \NewDocumentEnvironment{myxmlbox}{m}
+    {%
+    \begin{mybox}
+        \begin{lstlisting}[language=XML,label={#1}]
+}
+{%
+        \end{lstlisting}
+    \end{mybox}
+        }
+
 \endinput
+
