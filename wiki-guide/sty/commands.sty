@@ -38,29 +38,29 @@
 
 \usepackage{xparse}
 
-\lstnewenvironment{mytsbox}[1]
-{
-    \begin{mybox}
-        \lstset{
-            language=TypeScript,
-            label={#1}
-        }
-}
-{
-\end{mybox}
+
+
+\newtcblisting{mytsbox}[1]{
+    listing engine=listings,
+    listing only,
+    colback=black,
+    colframe=black,
+    listing options={
+        language=TypeScript,
+        label=#1
+    }
 }
 
 
-\lstnewenvironment{myxmlbox}[1]
-{
-\begin{mybox}
-\lstset{
-language=XML,
-label={#1}
-}
-}
-{
-\end{mybox}
+\newtcblisting{myxmlbox}[1]{
+    listing engine=listings,
+    listing only,
+    colback=black,
+    colframe=black,
+    listing options={
+        language=XML,
+        label=#1
+    }
 }
 
 \endinput
