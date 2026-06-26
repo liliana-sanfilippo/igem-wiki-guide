@@ -1,4 +1,3 @@
-
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{commands}[2025/06/30 Version 1.0]
 
@@ -39,26 +38,30 @@
 
 \usepackage{xparse}
 
-
-\NewDocumentEnvironment{mytsbox}{m}
-{%
-\begin{mybox}
-    \begin{lstlisting}[language=TypeScript,label={#1}]
-}
-{%
-    \end{lstlisting}
-\end{mybox}
-    }
-
-    \NewDocumentEnvironment{myxmlbox}{m}
-    {%
+\lstnewenvironment{mytsbox}[1]
+{
     \begin{mybox}
-        \begin{lstlisting}[language=XML,label={#1}]
-}
-{%
-        \end{lstlisting}
-    \end{mybox}
+        \lstset{
+            language=TypeScript,
+            label={#1}
         }
+}
+{
+\end{mybox}
+}
+
+
+\lstnewenvironment{myxmlbox}[1]
+{
+\begin{mybox}
+\lstset{
+language=XML,
+label={#1}
+}
+}
+{
+\end{mybox}
+}
 
 \endinput
 
